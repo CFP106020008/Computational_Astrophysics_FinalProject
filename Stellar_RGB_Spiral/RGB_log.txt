@@ -1,0 +1,19 @@
+11/05/2020 02:03:49.244   SKIRT v9.0 (git 63a5263-dirty built on 02/07/2019 at 17:44:39)
+11/05/2020 02:03:49.244   Running on julius52700-Aspire-A515-51G for julius52700
+11/05/2020 02:03:49.244   Starting simulation RGB using 4 threads and a single process...
+11/05/2020 02:03:49.244   Starting setup...
+11/05/2020 02:03:49.244     Oligochromatic wavelength regime
+11/05/2020 02:03:49.244     With transfer medium
+11/05/2020 02:03:49.244     Model and grid symmetry: 3D
+11/05/2020 02:03:49.244   BruzualCharlotSEDFamily opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/SED/BruzualCharlotSEDFamily_Chabrier_lr.stab
+11/05/2020 02:03:49.244   ParticleSource reads smoothed source particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar_RGB_Spiral/TNG100-1_star_id278.txt...
+11/05/2020 02:03:49.244     Column 1: position x (kpc)
+11/05/2020 02:03:49.244     Column 2: position y (kpc)
+11/05/2020 02:03:49.244     Column 3: position z (kpc)
+11/05/2020 02:03:49.244     Column 4: size h (kpc)
+11/05/2020 02:03:49.244     Column 5: initial mass (Msun)
+11/05/2020 02:03:49.244     Column 6: metallicity (1)
+11/05/2020 02:03:49.244     Column 7: age (Gyr)
+11/05/2020 02:03:49.274   Done reading
+11/05/2020 02:03:49.274     Number of particles: 9407
+11/05/2020 02:03:49.274   Calculating luminosities from imported properties

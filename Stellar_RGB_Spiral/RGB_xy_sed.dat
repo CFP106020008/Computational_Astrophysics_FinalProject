@@ -1,0 +1,10 @@
+# column 1: wavelength (micron)
+# column 2: total flux; F_nu (Jy)
+# column 3: transparent flux; F_nu (Jy)
+# column 4: direct primary flux; F_nu (Jy)
+# column 5: scattered primary flux; F_nu (Jy)
+# column 6: direct secondary flux; F_nu (Jy)
+# column 7: scattered secondary flux; F_nu (Jy)
+3.000000000e-01 2.080306482e-03 3.159728343e+00 1.711078450e-03 3.692280318e-04 0.000000000e+00 0.000000000e+00
+5.500000000e-01 6.856249263e-03 3.977343200e+00 5.576131147e-03 1.280118117e-03 0.000000000e+00 0.000000000e+00
+8.000000000e-01 9.478053083e-03 3.942719013e+00 7.819531722e-03 1.658521362e-03 0.000000000e+00 0.000000000e+00
