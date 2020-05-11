@@ -1,0 +1,1897 @@
+11/05/2020 04:39:29.360   SKIRT v9.0 (git 63a5263-dirty built on 02/07/2019 at 17:44:39)
+11/05/2020 04:39:29.360   Running on julius52700-Aspire-A515-51G for julius52700
+11/05/2020 04:39:29.360   Starting simulation Dusty using 4 threads and a single process...
+11/05/2020 04:39:29.360   Starting setup...
+11/05/2020 04:39:29.360     Panchromatic wavelength regime
+11/05/2020 04:39:29.360     With transfer medium
+11/05/2020 04:39:29.360     Including dust emission with iterative calculation of dust self-absorption 
+11/05/2020 04:39:29.360     Model and grid symmetry: 3D
+11/05/2020 04:39:29.360   BruzualCharlotSEDFamily opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/SED/BruzualCharlotSEDFamily_Chabrier_lr.stab
+11/05/2020 04:39:29.360   ParticleSource reads smoothed source particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/TNG100-1_star_id278.txt...
+11/05/2020 04:39:29.361     Column 1: position x (kpc)
+11/05/2020 04:39:29.361     Column 2: position y (kpc)
+11/05/2020 04:39:29.361     Column 3: position z (kpc)
+11/05/2020 04:39:29.361     Column 4: size h (kpc)
+11/05/2020 04:39:29.361     Column 5: initial mass (Msun)
+11/05/2020 04:39:29.361     Column 6: metallicity (1)
+11/05/2020 04:39:29.361     Column 7: age (Gyr)
+11/05/2020 04:39:29.390   Done reading
+11/05/2020 04:39:29.390     Number of particles: 9407
+11/05/2020 04:39:29.390   Calculating luminosities from imported properties
+11/05/2020 04:39:31.210   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:31.552   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:31.552   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_3.552485e-08_S.txt...
+11/05/2020 04:39:31.552     Column 1: position x (pc)
+11/05/2020 04:39:31.552     Column 2: position y (pc)
+11/05/2020 04:39:31.552     Column 3: position z (pc)
+11/05/2020 04:39:31.552     Column 4: size h (pc)
+11/05/2020 04:39:31.552     Column 5: mass (Msun)
+11/05/2020 04:39:31.648   Done reading
+11/05/2020 04:39:31.648     Number of particles: 28612
+11/05/2020 04:39:31.648     Total original mass : 2.4879e-06 Msun
+11/05/2020 04:39:31.648     Total metallic mass : 2.4879e-06 Msun
+11/05/2020 04:39:31.648     Total effective mass: 2.4879e-06 Msun
+11/05/2020 04:39:31.648   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:31.683     Smallest number of particles per cell: 0
+11/05/2020 04:39:31.683     Largest  number of particles per cell: 1443
+11/05/2020 04:39:31.683     Average  number of particles per cell: 144.4
+11/05/2020 04:39:31.684   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:32.027   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:32.027   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_4.860947e-08_S.txt...
+11/05/2020 04:39:32.027     Column 1: position x (pc)
+11/05/2020 04:39:32.027     Column 2: position y (pc)
+11/05/2020 04:39:32.027     Column 3: position z (pc)
+11/05/2020 04:39:32.027     Column 4: size h (pc)
+11/05/2020 04:39:32.027     Column 5: mass (Msun)
+11/05/2020 04:39:32.121   Done reading
+11/05/2020 04:39:32.121     Number of particles: 28612
+11/05/2020 04:39:32.121     Total original mass : 6.2230e+05 Msun
+11/05/2020 04:39:32.121     Total metallic mass : 6.2230e+05 Msun
+11/05/2020 04:39:32.122     Total effective mass: 6.2230e+05 Msun
+11/05/2020 04:39:32.122   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:32.156     Smallest number of particles per cell: 0
+11/05/2020 04:39:32.156     Largest  number of particles per cell: 1443
+11/05/2020 04:39:32.156     Average  number of particles per cell: 144.4
+11/05/2020 04:39:32.157   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:32.499   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:32.499   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_6.651346e-08_S.txt...
+11/05/2020 04:39:32.499     Column 1: position x (pc)
+11/05/2020 04:39:32.499     Column 2: position y (pc)
+11/05/2020 04:39:32.499     Column 3: position z (pc)
+11/05/2020 04:39:32.499     Column 4: size h (pc)
+11/05/2020 04:39:32.499     Column 5: mass (Msun)
+11/05/2020 04:39:32.593   Done reading
+11/05/2020 04:39:32.593     Number of particles: 28612
+11/05/2020 04:39:32.594     Total original mass : 1.8798e+06 Msun
+11/05/2020 04:39:32.594     Total metallic mass : 1.8798e+06 Msun
+11/05/2020 04:39:32.594     Total effective mass: 1.8798e+06 Msun
+11/05/2020 04:39:32.594   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:32.629     Smallest number of particles per cell: 0
+11/05/2020 04:39:32.629     Largest  number of particles per cell: 1443
+11/05/2020 04:39:32.629     Average  number of particles per cell: 144.4
+11/05/2020 04:39:32.630   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:32.971   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:32.971   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_9.101191e-08_S.txt...
+11/05/2020 04:39:32.971     Column 1: position x (pc)
+11/05/2020 04:39:32.971     Column 2: position y (pc)
+11/05/2020 04:39:32.971     Column 3: position z (pc)
+11/05/2020 04:39:32.971     Column 4: size h (pc)
+11/05/2020 04:39:32.971     Column 5: mass (Msun)
+11/05/2020 04:39:33.064   Done reading
+11/05/2020 04:39:33.064     Number of particles: 28612
+11/05/2020 04:39:33.065     Total original mass : 4.3158e+06 Msun
+11/05/2020 04:39:33.065     Total metallic mass : 4.3158e+06 Msun
+11/05/2020 04:39:33.065     Total effective mass: 4.3158e+06 Msun
+11/05/2020 04:39:33.065   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:33.100     Smallest number of particles per cell: 0
+11/05/2020 04:39:33.100     Largest  number of particles per cell: 1443
+11/05/2020 04:39:33.101     Average  number of particles per cell: 144.4
+11/05/2020 04:39:33.102   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:33.444   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:33.444   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_1.245337e-07_S.txt...
+11/05/2020 04:39:33.444     Column 1: position x (pc)
+11/05/2020 04:39:33.444     Column 2: position y (pc)
+11/05/2020 04:39:33.444     Column 3: position z (pc)
+11/05/2020 04:39:33.444     Column 4: size h (pc)
+11/05/2020 04:39:33.444     Column 5: mass (Msun)
+11/05/2020 04:39:33.539   Done reading
+11/05/2020 04:39:33.539     Number of particles: 28612
+11/05/2020 04:39:33.539     Total original mass : 8.0127e+06 Msun
+11/05/2020 04:39:33.539     Total metallic mass : 8.0127e+06 Msun
+11/05/2020 04:39:33.539     Total effective mass: 8.0127e+06 Msun
+11/05/2020 04:39:33.539   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:33.575     Smallest number of particles per cell: 0
+11/05/2020 04:39:33.575     Largest  number of particles per cell: 1443
+11/05/2020 04:39:33.575     Average  number of particles per cell: 144.4
+11/05/2020 04:39:33.576   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:33.919   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:33.920   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_1.704023e-07_S.txt...
+11/05/2020 04:39:33.920     Column 1: position x (pc)
+11/05/2020 04:39:33.920     Column 2: position y (pc)
+11/05/2020 04:39:33.920     Column 3: position z (pc)
+11/05/2020 04:39:33.920     Column 4: size h (pc)
+11/05/2020 04:39:33.920     Column 5: mass (Msun)
+11/05/2020 04:39:34.018   Done reading
+11/05/2020 04:39:34.018     Number of particles: 28612
+11/05/2020 04:39:34.018     Total original mass : 1.2143e+07 Msun
+11/05/2020 04:39:34.018     Total metallic mass : 1.2143e+07 Msun
+11/05/2020 04:39:34.018     Total effective mass: 1.2143e+07 Msun
+11/05/2020 04:39:34.018   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:34.054     Smallest number of particles per cell: 0
+11/05/2020 04:39:34.054     Largest  number of particles per cell: 1443
+11/05/2020 04:39:34.054     Average  number of particles per cell: 144.4
+11/05/2020 04:39:34.055   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:34.398   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:34.398   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_2.331655e-07_S.txt...
+11/05/2020 04:39:34.398     Column 1: position x (pc)
+11/05/2020 04:39:34.398     Column 2: position y (pc)
+11/05/2020 04:39:34.398     Column 3: position z (pc)
+11/05/2020 04:39:34.398     Column 4: size h (pc)
+11/05/2020 04:39:34.398     Column 5: mass (Msun)
+11/05/2020 04:39:34.492   Done reading
+11/05/2020 04:39:34.492     Number of particles: 28612
+11/05/2020 04:39:34.493     Total original mass : 1.5334e+07 Msun
+11/05/2020 04:39:34.493     Total metallic mass : 1.5334e+07 Msun
+11/05/2020 04:39:34.493     Total effective mass: 1.5334e+07 Msun
+11/05/2020 04:39:34.493   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:34.529     Smallest number of particles per cell: 0
+11/05/2020 04:39:34.529     Largest  number of particles per cell: 1443
+11/05/2020 04:39:34.529     Average  number of particles per cell: 144.4
+11/05/2020 04:39:34.530   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:34.873   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:34.873   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_3.190457e-07_S.txt...
+11/05/2020 04:39:34.873     Column 1: position x (pc)
+11/05/2020 04:39:34.873     Column 2: position y (pc)
+11/05/2020 04:39:34.873     Column 3: position z (pc)
+11/05/2020 04:39:34.873     Column 4: size h (pc)
+11/05/2020 04:39:34.873     Column 5: mass (Msun)
+11/05/2020 04:39:34.967   Done reading
+11/05/2020 04:39:34.967     Number of particles: 28612
+11/05/2020 04:39:34.968     Total original mass : 1.7683e+07 Msun
+11/05/2020 04:39:34.968     Total metallic mass : 1.7683e+07 Msun
+11/05/2020 04:39:34.968     Total effective mass: 1.7683e+07 Msun
+11/05/2020 04:39:34.968   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:35.003     Smallest number of particles per cell: 0
+11/05/2020 04:39:35.003     Largest  number of particles per cell: 1443
+11/05/2020 04:39:35.003     Average  number of particles per cell: 144.4
+11/05/2020 04:39:35.005   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:35.348   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:35.348   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_4.365576e-07_S.txt...
+11/05/2020 04:39:35.348     Column 1: position x (pc)
+11/05/2020 04:39:35.348     Column 2: position y (pc)
+11/05/2020 04:39:35.348     Column 3: position z (pc)
+11/05/2020 04:39:35.348     Column 4: size h (pc)
+11/05/2020 04:39:35.348     Column 5: mass (Msun)
+11/05/2020 04:39:35.441   Done reading
+11/05/2020 04:39:35.441     Number of particles: 28612
+11/05/2020 04:39:35.442     Total original mass : 1.9021e+07 Msun
+11/05/2020 04:39:35.442     Total metallic mass : 1.9021e+07 Msun
+11/05/2020 04:39:35.442     Total effective mass: 1.9021e+07 Msun
+11/05/2020 04:39:35.442   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:35.478     Smallest number of particles per cell: 0
+11/05/2020 04:39:35.478     Largest  number of particles per cell: 1443
+11/05/2020 04:39:35.478     Average  number of particles per cell: 144.4
+11/05/2020 04:39:35.479   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:35.820   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:35.820   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_5.973519e-07_S.txt...
+11/05/2020 04:39:35.820     Column 1: position x (pc)
+11/05/2020 04:39:35.820     Column 2: position y (pc)
+11/05/2020 04:39:35.820     Column 3: position z (pc)
+11/05/2020 04:39:35.820     Column 4: size h (pc)
+11/05/2020 04:39:35.820     Column 5: mass (Msun)
+11/05/2020 04:39:35.914   Done reading
+11/05/2020 04:39:35.914     Number of particles: 28612
+11/05/2020 04:39:35.915     Total original mass : 1.9162e+07 Msun
+11/05/2020 04:39:35.915     Total metallic mass : 1.9162e+07 Msun
+11/05/2020 04:39:35.915     Total effective mass: 1.9162e+07 Msun
+11/05/2020 04:39:35.915   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:35.951     Smallest number of particles per cell: 0
+11/05/2020 04:39:35.951     Largest  number of particles per cell: 1443
+11/05/2020 04:39:35.951     Average  number of particles per cell: 144.4
+11/05/2020 04:39:35.952   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:36.296   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:36.296   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_8.173704e-07_S.txt...
+11/05/2020 04:39:36.296     Column 1: position x (pc)
+11/05/2020 04:39:36.296     Column 2: position y (pc)
+11/05/2020 04:39:36.296     Column 3: position z (pc)
+11/05/2020 04:39:36.296     Column 4: size h (pc)
+11/05/2020 04:39:36.296     Column 5: mass (Msun)
+11/05/2020 04:39:36.390   Done reading
+11/05/2020 04:39:36.390     Number of particles: 28612
+11/05/2020 04:39:36.391     Total original mass : 1.8123e+07 Msun
+11/05/2020 04:39:36.391     Total metallic mass : 1.8123e+07 Msun
+11/05/2020 04:39:36.391     Total effective mass: 1.8123e+07 Msun
+11/05/2020 04:39:36.391   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:36.427     Smallest number of particles per cell: 0
+11/05/2020 04:39:36.427     Largest  number of particles per cell: 1443
+11/05/2020 04:39:36.427     Average  number of particles per cell: 144.4
+11/05/2020 04:39:36.428   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:36.771   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:36.771   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_1.118427e-06_S.txt...
+11/05/2020 04:39:36.771     Column 1: position x (pc)
+11/05/2020 04:39:36.771     Column 2: position y (pc)
+11/05/2020 04:39:36.771     Column 3: position z (pc)
+11/05/2020 04:39:36.771     Column 4: size h (pc)
+11/05/2020 04:39:36.771     Column 5: mass (Msun)
+11/05/2020 04:39:36.864   Done reading
+11/05/2020 04:39:36.864     Number of particles: 28612
+11/05/2020 04:39:36.865     Total original mass : 1.7427e+07 Msun
+11/05/2020 04:39:36.865     Total metallic mass : 1.7427e+07 Msun
+11/05/2020 04:39:36.865     Total effective mass: 1.7427e+07 Msun
+11/05/2020 04:39:36.865   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:36.900     Smallest number of particles per cell: 0
+11/05/2020 04:39:36.901     Largest  number of particles per cell: 1443
+11/05/2020 04:39:36.901     Average  number of particles per cell: 144.4
+11/05/2020 04:39:36.902   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:37.243   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:37.243   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_1.530369e-06_S.txt...
+11/05/2020 04:39:37.244     Column 1: position x (pc)
+11/05/2020 04:39:37.244     Column 2: position y (pc)
+11/05/2020 04:39:37.244     Column 3: position z (pc)
+11/05/2020 04:39:37.244     Column 4: size h (pc)
+11/05/2020 04:39:37.244     Column 5: mass (Msun)
+11/05/2020 04:39:37.338   Done reading
+11/05/2020 04:39:37.338     Number of particles: 28612
+11/05/2020 04:39:37.339     Total original mass : 1.5480e+07 Msun
+11/05/2020 04:39:37.339     Total metallic mass : 1.5480e+07 Msun
+11/05/2020 04:39:37.339     Total effective mass: 1.5480e+07 Msun
+11/05/2020 04:39:37.339   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:37.375     Smallest number of particles per cell: 0
+11/05/2020 04:39:37.375     Largest  number of particles per cell: 1443
+11/05/2020 04:39:37.375     Average  number of particles per cell: 144.4
+11/05/2020 04:39:37.376   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:37.718   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:37.718   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_2.09404e-06_S.txt...
+11/05/2020 04:39:37.718     Column 1: position x (pc)
+11/05/2020 04:39:37.719     Column 2: position y (pc)
+11/05/2020 04:39:37.719     Column 3: position z (pc)
+11/05/2020 04:39:37.719     Column 4: size h (pc)
+11/05/2020 04:39:37.719     Column 5: mass (Msun)
+11/05/2020 04:39:37.813   Done reading
+11/05/2020 04:39:37.813     Number of particles: 28612
+11/05/2020 04:39:37.814     Total original mass : 1.5255e+07 Msun
+11/05/2020 04:39:37.814     Total metallic mass : 1.5255e+07 Msun
+11/05/2020 04:39:37.814     Total effective mass: 1.5255e+07 Msun
+11/05/2020 04:39:37.814   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:37.849     Smallest number of particles per cell: 0
+11/05/2020 04:39:37.849     Largest  number of particles per cell: 1443
+11/05/2020 04:39:37.849     Average  number of particles per cell: 144.4
+11/05/2020 04:39:37.850   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:38.193   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:38.193   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_2.865323e-06_S.txt...
+11/05/2020 04:39:38.193     Column 1: position x (pc)
+11/05/2020 04:39:38.193     Column 2: position y (pc)
+11/05/2020 04:39:38.193     Column 3: position z (pc)
+11/05/2020 04:39:38.193     Column 4: size h (pc)
+11/05/2020 04:39:38.193     Column 5: mass (Msun)
+11/05/2020 04:39:38.287   Done reading
+11/05/2020 04:39:38.287     Number of particles: 28612
+11/05/2020 04:39:38.288     Total original mass : 1.5558e+07 Msun
+11/05/2020 04:39:38.288     Total metallic mass : 1.5558e+07 Msun
+11/05/2020 04:39:38.288     Total effective mass: 1.5558e+07 Msun
+11/05/2020 04:39:38.288   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:38.324     Smallest number of particles per cell: 0
+11/05/2020 04:39:38.324     Largest  number of particles per cell: 1443
+11/05/2020 04:39:38.324     Average  number of particles per cell: 144.4
+11/05/2020 04:39:38.325   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:38.665   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:38.665   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_3.920688e-06_S.txt...
+11/05/2020 04:39:38.665     Column 1: position x (pc)
+11/05/2020 04:39:38.665     Column 2: position y (pc)
+11/05/2020 04:39:38.665     Column 3: position z (pc)
+11/05/2020 04:39:38.665     Column 4: size h (pc)
+11/05/2020 04:39:38.665     Column 5: mass (Msun)
+11/05/2020 04:39:38.759   Done reading
+11/05/2020 04:39:38.759     Number of particles: 28612
+11/05/2020 04:39:38.760     Total original mass : 1.8606e+07 Msun
+11/05/2020 04:39:38.760     Total metallic mass : 1.8606e+07 Msun
+11/05/2020 04:39:38.760     Total effective mass: 1.8606e+07 Msun
+11/05/2020 04:39:38.760   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:38.795     Smallest number of particles per cell: 0
+11/05/2020 04:39:38.795     Largest  number of particles per cell: 1443
+11/05/2020 04:39:38.795     Average  number of particles per cell: 144.4
+11/05/2020 04:39:38.796   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:39.139   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:39.139   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_5.364768e-06_S.txt...
+11/05/2020 04:39:39.139     Column 1: position x (pc)
+11/05/2020 04:39:39.139     Column 2: position y (pc)
+11/05/2020 04:39:39.139     Column 3: position z (pc)
+11/05/2020 04:39:39.139     Column 4: size h (pc)
+11/05/2020 04:39:39.139     Column 5: mass (Msun)
+11/05/2020 04:39:39.233   Done reading
+11/05/2020 04:39:39.233     Number of particles: 28612
+11/05/2020 04:39:39.233     Total original mass : 2.3112e+07 Msun
+11/05/2020 04:39:39.233     Total metallic mass : 2.3112e+07 Msun
+11/05/2020 04:39:39.233     Total effective mass: 2.3112e+07 Msun
+11/05/2020 04:39:39.233   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:39.269     Smallest number of particles per cell: 0
+11/05/2020 04:39:39.269     Largest  number of particles per cell: 1443
+11/05/2020 04:39:39.269     Average  number of particles per cell: 144.4
+11/05/2020 04:39:39.270   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:39.613   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:39.613   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_7.340736e-06_S.txt...
+11/05/2020 04:39:39.613     Column 1: position x (pc)
+11/05/2020 04:39:39.613     Column 2: position y (pc)
+11/05/2020 04:39:39.613     Column 3: position z (pc)
+11/05/2020 04:39:39.613     Column 4: size h (pc)
+11/05/2020 04:39:39.613     Column 5: mass (Msun)
+11/05/2020 04:39:39.707   Done reading
+11/05/2020 04:39:39.707     Number of particles: 28612
+11/05/2020 04:39:39.707     Total original mass : 2.2443e+07 Msun
+11/05/2020 04:39:39.707     Total metallic mass : 2.2443e+07 Msun
+11/05/2020 04:39:39.707     Total effective mass: 2.2443e+07 Msun
+11/05/2020 04:39:39.707   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:39.743     Smallest number of particles per cell: 0
+11/05/2020 04:39:39.743     Largest  number of particles per cell: 1443
+11/05/2020 04:39:39.743     Average  number of particles per cell: 144.4
+11/05/2020 04:39:39.744   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:40.085   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:40.085   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_1.00445e-05_S.txt...
+11/05/2020 04:39:40.085     Column 1: position x (pc)
+11/05/2020 04:39:40.085     Column 2: position y (pc)
+11/05/2020 04:39:40.085     Column 3: position z (pc)
+11/05/2020 04:39:40.085     Column 4: size h (pc)
+11/05/2020 04:39:40.085     Column 5: mass (Msun)
+11/05/2020 04:39:40.179   Done reading
+11/05/2020 04:39:40.179     Number of particles: 28612
+11/05/2020 04:39:40.179     Total original mass : 1.4551e+07 Msun
+11/05/2020 04:39:40.179     Total metallic mass : 1.4551e+07 Msun
+11/05/2020 04:39:40.179     Total effective mass: 1.4551e+07 Msun
+11/05/2020 04:39:40.179   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:40.215     Smallest number of particles per cell: 0
+11/05/2020 04:39:40.215     Largest  number of particles per cell: 1443
+11/05/2020 04:39:40.215     Average  number of particles per cell: 144.4
+11/05/2020 04:39:40.216   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:40.560   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:40.560   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_1.374412e-05_S.txt...
+11/05/2020 04:39:40.560     Column 1: position x (pc)
+11/05/2020 04:39:40.560     Column 2: position y (pc)
+11/05/2020 04:39:40.560     Column 3: position z (pc)
+11/05/2020 04:39:40.560     Column 4: size h (pc)
+11/05/2020 04:39:40.560     Column 5: mass (Msun)
+11/05/2020 04:39:40.654   Done reading
+11/05/2020 04:39:40.654     Number of particles: 28612
+11/05/2020 04:39:40.654     Total original mass : 7.6431e+06 Msun
+11/05/2020 04:39:40.654     Total metallic mass : 7.6431e+06 Msun
+11/05/2020 04:39:40.654     Total effective mass: 7.6431e+06 Msun
+11/05/2020 04:39:40.654   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:40.690     Smallest number of particles per cell: 0
+11/05/2020 04:39:40.690     Largest  number of particles per cell: 1443
+11/05/2020 04:39:40.690     Average  number of particles per cell: 144.4
+11/05/2020 04:39:40.691   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:41.033   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:41.033   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_1.88064e-05_S.txt...
+11/05/2020 04:39:41.033     Column 1: position x (pc)
+11/05/2020 04:39:41.033     Column 2: position y (pc)
+11/05/2020 04:39:41.033     Column 3: position z (pc)
+11/05/2020 04:39:41.033     Column 4: size h (pc)
+11/05/2020 04:39:41.033     Column 5: mass (Msun)
+11/05/2020 04:39:41.127   Done reading
+11/05/2020 04:39:41.127     Number of particles: 28612
+11/05/2020 04:39:41.128     Total original mass : 5.2005e+06 Msun
+11/05/2020 04:39:41.128     Total metallic mass : 5.2005e+06 Msun
+11/05/2020 04:39:41.128     Total effective mass: 5.2005e+06 Msun
+11/05/2020 04:39:41.128   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:41.164     Smallest number of particles per cell: 0
+11/05/2020 04:39:41.164     Largest  number of particles per cell: 1443
+11/05/2020 04:39:41.164     Average  number of particles per cell: 144.4
+11/05/2020 04:39:41.165   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:41.510   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:41.510   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_2.573323e-05_S.txt...
+11/05/2020 04:39:41.510     Column 1: position x (pc)
+11/05/2020 04:39:41.510     Column 2: position y (pc)
+11/05/2020 04:39:41.510     Column 3: position z (pc)
+11/05/2020 04:39:41.510     Column 4: size h (pc)
+11/05/2020 04:39:41.510     Column 5: mass (Msun)
+11/05/2020 04:39:41.604   Done reading
+11/05/2020 04:39:41.604     Number of particles: 28612
+11/05/2020 04:39:41.605     Total original mass : 3.6639e+06 Msun
+11/05/2020 04:39:41.605     Total metallic mass : 3.6639e+06 Msun
+11/05/2020 04:39:41.605     Total effective mass: 3.6639e+06 Msun
+11/05/2020 04:39:41.605   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:41.640     Smallest number of particles per cell: 0
+11/05/2020 04:39:41.640     Largest  number of particles per cell: 1443
+11/05/2020 04:39:41.640     Average  number of particles per cell: 144.4
+11/05/2020 04:39:41.641   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:41.985   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:41.985   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_3.521137e-05_S.txt...
+11/05/2020 04:39:41.985     Column 1: position x (pc)
+11/05/2020 04:39:41.985     Column 2: position y (pc)
+11/05/2020 04:39:41.985     Column 3: position z (pc)
+11/05/2020 04:39:41.985     Column 4: size h (pc)
+11/05/2020 04:39:41.985     Column 5: mass (Msun)
+11/05/2020 04:39:42.079   Done reading
+11/05/2020 04:39:42.079     Number of particles: 28612
+11/05/2020 04:39:42.080     Total original mass : 2.2770e+06 Msun
+11/05/2020 04:39:42.080     Total metallic mass : 2.2770e+06 Msun
+11/05/2020 04:39:42.080     Total effective mass: 2.2770e+06 Msun
+11/05/2020 04:39:42.080   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:42.116     Smallest number of particles per cell: 0
+11/05/2020 04:39:42.116     Largest  number of particles per cell: 1443
+11/05/2020 04:39:42.116     Average  number of particles per cell: 144.4
+11/05/2020 04:39:42.117   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:42.461   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:42.461   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_4.818053e-05_S.txt...
+11/05/2020 04:39:42.461     Column 1: position x (pc)
+11/05/2020 04:39:42.461     Column 2: position y (pc)
+11/05/2020 04:39:42.461     Column 3: position z (pc)
+11/05/2020 04:39:42.461     Column 4: size h (pc)
+11/05/2020 04:39:42.461     Column 5: mass (Msun)
+11/05/2020 04:39:42.556   Done reading
+11/05/2020 04:39:42.556     Number of particles: 28612
+11/05/2020 04:39:42.556     Total original mass : 1.0584e+06 Msun
+11/05/2020 04:39:42.556     Total metallic mass : 1.0584e+06 Msun
+11/05/2020 04:39:42.556     Total effective mass: 1.0584e+06 Msun
+11/05/2020 04:39:42.556   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:42.592     Smallest number of particles per cell: 0
+11/05/2020 04:39:42.592     Largest  number of particles per cell: 1443
+11/05/2020 04:39:42.592     Average  number of particles per cell: 144.4
+11/05/2020 04:39:42.593   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:42.939   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:42.939   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_6.592654e-05_S.txt...
+11/05/2020 04:39:42.939     Column 1: position x (pc)
+11/05/2020 04:39:42.939     Column 2: position y (pc)
+11/05/2020 04:39:42.939     Column 3: position z (pc)
+11/05/2020 04:39:42.939     Column 4: size h (pc)
+11/05/2020 04:39:42.939     Column 5: mass (Msun)
+11/05/2020 04:39:43.034   Done reading
+11/05/2020 04:39:43.034     Number of particles: 28612
+11/05/2020 04:39:43.035     Total original mass : 3.4142e+05 Msun
+11/05/2020 04:39:43.035     Total metallic mass : 3.4142e+05 Msun
+11/05/2020 04:39:43.035     Total effective mass: 3.4142e+05 Msun
+11/05/2020 04:39:43.035   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:43.070     Smallest number of particles per cell: 0
+11/05/2020 04:39:43.070     Largest  number of particles per cell: 1443
+11/05/2020 04:39:43.070     Average  number of particles per cell: 144.4
+11/05/2020 04:39:43.071   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:43.416   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:43.416   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_9.020881e-05_S.txt...
+11/05/2020 04:39:43.416     Column 1: position x (pc)
+11/05/2020 04:39:43.416     Column 2: position y (pc)
+11/05/2020 04:39:43.416     Column 3: position z (pc)
+11/05/2020 04:39:43.416     Column 4: size h (pc)
+11/05/2020 04:39:43.416     Column 5: mass (Msun)
+11/05/2020 04:39:43.510   Done reading
+11/05/2020 04:39:43.510     Number of particles: 28612
+11/05/2020 04:39:43.511     Total original mass : 7.2924e+04 Msun
+11/05/2020 04:39:43.511     Total metallic mass : 7.2924e+04 Msun
+11/05/2020 04:39:43.511     Total effective mass: 7.2924e+04 Msun
+11/05/2020 04:39:43.511   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:43.547     Smallest number of particles per cell: 0
+11/05/2020 04:39:43.547     Largest  number of particles per cell: 1443
+11/05/2020 04:39:43.547     Average  number of particles per cell: 144.4
+11/05/2020 04:39:43.548   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:43.890   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:43.890   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_0.0001234348_S.txt...
+11/05/2020 04:39:43.890     Column 1: position x (pc)
+11/05/2020 04:39:43.890     Column 2: position y (pc)
+11/05/2020 04:39:43.890     Column 3: position z (pc)
+11/05/2020 04:39:43.890     Column 4: size h (pc)
+11/05/2020 04:39:43.890     Column 5: mass (Msun)
+11/05/2020 04:39:43.985   Done reading
+11/05/2020 04:39:43.985     Number of particles: 28612
+11/05/2020 04:39:43.986     Total original mass : 1.0374e+04 Msun
+11/05/2020 04:39:43.986     Total metallic mass : 1.0374e+04 Msun
+11/05/2020 04:39:43.986     Total effective mass: 1.0374e+04 Msun
+11/05/2020 04:39:43.986   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:44.021     Smallest number of particles per cell: 0
+11/05/2020 04:39:44.021     Largest  number of particles per cell: 1443
+11/05/2020 04:39:44.021     Average  number of particles per cell: 144.4
+11/05/2020 04:39:44.022   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:44.364   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:44.364   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_0.0001688987_S.txt...
+11/05/2020 04:39:44.364     Column 1: position x (pc)
+11/05/2020 04:39:44.364     Column 2: position y (pc)
+11/05/2020 04:39:44.364     Column 3: position z (pc)
+11/05/2020 04:39:44.364     Column 4: size h (pc)
+11/05/2020 04:39:44.364     Column 5: mass (Msun)
+11/05/2020 04:39:44.457   Done reading
+11/05/2020 04:39:44.458     Number of particles: 28612
+11/05/2020 04:39:44.458     Total original mass : 9.6811e+02 Msun
+11/05/2020 04:39:44.458     Total metallic mass : 9.6811e+02 Msun
+11/05/2020 04:39:44.458     Total effective mass: 9.6811e+02 Msun
+11/05/2020 04:39:44.458   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:44.494     Smallest number of particles per cell: 0
+11/05/2020 04:39:44.494     Largest  number of particles per cell: 1443
+11/05/2020 04:39:44.494     Average  number of particles per cell: 144.4
+11/05/2020 04:39:44.495   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:44.835   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:44.835   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_0.000231108_S.txt...
+11/05/2020 04:39:44.835     Column 1: position x (pc)
+11/05/2020 04:39:44.835     Column 2: position y (pc)
+11/05/2020 04:39:44.835     Column 3: position z (pc)
+11/05/2020 04:39:44.835     Column 4: size h (pc)
+11/05/2020 04:39:44.835     Column 5: mass (Msun)
+11/05/2020 04:39:44.929   Done reading
+11/05/2020 04:39:44.929     Number of particles: 28612
+11/05/2020 04:39:44.930     Total original mass : 5.9667e+01 Msun
+11/05/2020 04:39:44.930     Total metallic mass : 5.9667e+01 Msun
+11/05/2020 04:39:44.930     Total effective mass: 5.9667e+01 Msun
+11/05/2020 04:39:44.930   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:44.966     Smallest number of particles per cell: 0
+11/05/2020 04:39:44.966     Largest  number of particles per cell: 1443
+11/05/2020 04:39:44.966     Average  number of particles per cell: 144.4
+11/05/2020 04:39:44.967   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:45.310   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:45.310   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_0.0003162304_S.txt...
+11/05/2020 04:39:45.310     Column 1: position x (pc)
+11/05/2020 04:39:45.310     Column 2: position y (pc)
+11/05/2020 04:39:45.310     Column 3: position z (pc)
+11/05/2020 04:39:45.310     Column 4: size h (pc)
+11/05/2020 04:39:45.310     Column 5: mass (Msun)
+11/05/2020 04:39:45.405   Done reading
+11/05/2020 04:39:45.405     Number of particles: 28612
+11/05/2020 04:39:45.406     Total original mass : 2.4247e+00 Msun
+11/05/2020 04:39:45.406     Total metallic mass : 2.4247e+00 Msun
+11/05/2020 04:39:45.406     Total effective mass: 2.4247e+00 Msun
+11/05/2020 04:39:45.406   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:45.441     Smallest number of particles per cell: 0
+11/05/2020 04:39:45.441     Largest  number of particles per cell: 1443
+11/05/2020 04:39:45.441     Average  number of particles per cell: 144.4
+11/05/2020 04:39:45.443   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 04:39:45.785   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:45.785   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_0.0004327054_S.txt...
+11/05/2020 04:39:45.785     Column 1: position x (pc)
+11/05/2020 04:39:45.785     Column 2: position y (pc)
+11/05/2020 04:39:45.785     Column 3: position z (pc)
+11/05/2020 04:39:45.785     Column 4: size h (pc)
+11/05/2020 04:39:45.785     Column 5: mass (Msun)
+11/05/2020 04:39:45.880   Done reading
+11/05/2020 04:39:45.880     Number of particles: 28612
+11/05/2020 04:39:45.881     Total original mass : 6.5591e-02 Msun
+11/05/2020 04:39:45.881     Total metallic mass : 6.5591e-02 Msun
+11/05/2020 04:39:45.881     Total effective mass: 6.5591e-02 Msun
+11/05/2020 04:39:45.881   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:45.916     Smallest number of particles per cell: 0
+11/05/2020 04:39:45.916     Largest  number of particles per cell: 1443
+11/05/2020 04:39:45.917     Average  number of particles per cell: 144.4
+11/05/2020 04:39:45.918   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:46.258   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:46.258   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_3.552485e-08_C.txt...
+11/05/2020 04:39:46.258     Column 1: position x (pc)
+11/05/2020 04:39:46.258     Column 2: position y (pc)
+11/05/2020 04:39:46.258     Column 3: position z (pc)
+11/05/2020 04:39:46.258     Column 4: size h (pc)
+11/05/2020 04:39:46.258     Column 5: mass (Msun)
+11/05/2020 04:39:46.354   Done reading
+11/05/2020 04:39:46.354     Number of particles: 28612
+11/05/2020 04:39:46.355     Total original mass : 2.1193e-06 Msun
+11/05/2020 04:39:46.355     Total metallic mass : 2.1193e-06 Msun
+11/05/2020 04:39:46.355     Total effective mass: 2.1193e-06 Msun
+11/05/2020 04:39:46.355   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:46.390     Smallest number of particles per cell: 0
+11/05/2020 04:39:46.390     Largest  number of particles per cell: 1443
+11/05/2020 04:39:46.390     Average  number of particles per cell: 144.4
+11/05/2020 04:39:46.391   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:46.731   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:46.731   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_4.860947e-08_C.txt...
+11/05/2020 04:39:46.731     Column 1: position x (pc)
+11/05/2020 04:39:46.731     Column 2: position y (pc)
+11/05/2020 04:39:46.731     Column 3: position z (pc)
+11/05/2020 04:39:46.731     Column 4: size h (pc)
+11/05/2020 04:39:46.731     Column 5: mass (Msun)
+11/05/2020 04:39:46.827   Done reading
+11/05/2020 04:39:46.827     Number of particles: 28612
+11/05/2020 04:39:46.828     Total original mass : 5.3011e+05 Msun
+11/05/2020 04:39:46.828     Total metallic mass : 5.3011e+05 Msun
+11/05/2020 04:39:46.828     Total effective mass: 5.3011e+05 Msun
+11/05/2020 04:39:46.828   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:46.863     Smallest number of particles per cell: 0
+11/05/2020 04:39:46.863     Largest  number of particles per cell: 1443
+11/05/2020 04:39:46.863     Average  number of particles per cell: 144.4
+11/05/2020 04:39:46.864   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:47.206   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:47.206   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_6.651346e-08_C.txt...
+11/05/2020 04:39:47.206     Column 1: position x (pc)
+11/05/2020 04:39:47.206     Column 2: position y (pc)
+11/05/2020 04:39:47.206     Column 3: position z (pc)
+11/05/2020 04:39:47.206     Column 4: size h (pc)
+11/05/2020 04:39:47.206     Column 5: mass (Msun)
+11/05/2020 04:39:47.300   Done reading
+11/05/2020 04:39:47.300     Number of particles: 28612
+11/05/2020 04:39:47.301     Total original mass : 1.6013e+06 Msun
+11/05/2020 04:39:47.301     Total metallic mass : 1.6013e+06 Msun
+11/05/2020 04:39:47.301     Total effective mass: 1.6013e+06 Msun
+11/05/2020 04:39:47.301   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:47.336     Smallest number of particles per cell: 0
+11/05/2020 04:39:47.337     Largest  number of particles per cell: 1443
+11/05/2020 04:39:47.337     Average  number of particles per cell: 144.4
+11/05/2020 04:39:47.338   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:47.679   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:47.679   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_9.101191e-08_C.txt...
+11/05/2020 04:39:47.679     Column 1: position x (pc)
+11/05/2020 04:39:47.679     Column 2: position y (pc)
+11/05/2020 04:39:47.679     Column 3: position z (pc)
+11/05/2020 04:39:47.679     Column 4: size h (pc)
+11/05/2020 04:39:47.679     Column 5: mass (Msun)
+11/05/2020 04:39:47.773   Done reading
+11/05/2020 04:39:47.773     Number of particles: 28612
+11/05/2020 04:39:47.774     Total original mass : 3.6764e+06 Msun
+11/05/2020 04:39:47.774     Total metallic mass : 3.6764e+06 Msun
+11/05/2020 04:39:47.774     Total effective mass: 3.6764e+06 Msun
+11/05/2020 04:39:47.774   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:47.810     Smallest number of particles per cell: 0
+11/05/2020 04:39:47.810     Largest  number of particles per cell: 1443
+11/05/2020 04:39:47.810     Average  number of particles per cell: 144.4
+11/05/2020 04:39:47.811   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:48.153   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:48.153   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_1.245337e-07_C.txt...
+11/05/2020 04:39:48.153     Column 1: position x (pc)
+11/05/2020 04:39:48.153     Column 2: position y (pc)
+11/05/2020 04:39:48.153     Column 3: position z (pc)
+11/05/2020 04:39:48.153     Column 4: size h (pc)
+11/05/2020 04:39:48.153     Column 5: mass (Msun)
+11/05/2020 04:39:48.247   Done reading
+11/05/2020 04:39:48.247     Number of particles: 28612
+11/05/2020 04:39:48.247     Total original mass : 6.8256e+06 Msun
+11/05/2020 04:39:48.247     Total metallic mass : 6.8256e+06 Msun
+11/05/2020 04:39:48.247     Total effective mass: 6.8256e+06 Msun
+11/05/2020 04:39:48.247   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:48.283     Smallest number of particles per cell: 0
+11/05/2020 04:39:48.283     Largest  number of particles per cell: 1443
+11/05/2020 04:39:48.283     Average  number of particles per cell: 144.4
+11/05/2020 04:39:48.284   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:48.627   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:48.627   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_1.704023e-07_C.txt...
+11/05/2020 04:39:48.628     Column 1: position x (pc)
+11/05/2020 04:39:48.628     Column 2: position y (pc)
+11/05/2020 04:39:48.628     Column 3: position z (pc)
+11/05/2020 04:39:48.628     Column 4: size h (pc)
+11/05/2020 04:39:48.628     Column 5: mass (Msun)
+11/05/2020 04:39:48.722   Done reading
+11/05/2020 04:39:48.722     Number of particles: 28612
+11/05/2020 04:39:48.723     Total original mass : 1.0344e+07 Msun
+11/05/2020 04:39:48.723     Total metallic mass : 1.0344e+07 Msun
+11/05/2020 04:39:48.723     Total effective mass: 1.0344e+07 Msun
+11/05/2020 04:39:48.723   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:48.759     Smallest number of particles per cell: 0
+11/05/2020 04:39:48.759     Largest  number of particles per cell: 1443
+11/05/2020 04:39:48.759     Average  number of particles per cell: 144.4
+11/05/2020 04:39:48.760   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:49.105   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:49.105   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_2.331655e-07_C.txt...
+11/05/2020 04:39:49.105     Column 1: position x (pc)
+11/05/2020 04:39:49.105     Column 2: position y (pc)
+11/05/2020 04:39:49.105     Column 3: position z (pc)
+11/05/2020 04:39:49.105     Column 4: size h (pc)
+11/05/2020 04:39:49.105     Column 5: mass (Msun)
+11/05/2020 04:39:49.199   Done reading
+11/05/2020 04:39:49.200     Number of particles: 28612
+11/05/2020 04:39:49.200     Total original mass : 1.3063e+07 Msun
+11/05/2020 04:39:49.200     Total metallic mass : 1.3063e+07 Msun
+11/05/2020 04:39:49.200     Total effective mass: 1.3063e+07 Msun
+11/05/2020 04:39:49.200   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:49.236     Smallest number of particles per cell: 0
+11/05/2020 04:39:49.236     Largest  number of particles per cell: 1443
+11/05/2020 04:39:49.236     Average  number of particles per cell: 144.4
+11/05/2020 04:39:49.237   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:49.582   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:49.582   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_3.190457e-07_C.txt...
+11/05/2020 04:39:49.582     Column 1: position x (pc)
+11/05/2020 04:39:49.582     Column 2: position y (pc)
+11/05/2020 04:39:49.582     Column 3: position z (pc)
+11/05/2020 04:39:49.582     Column 4: size h (pc)
+11/05/2020 04:39:49.582     Column 5: mass (Msun)
+11/05/2020 04:39:49.677   Done reading
+11/05/2020 04:39:49.677     Number of particles: 28612
+11/05/2020 04:39:49.677     Total original mass : 1.5064e+07 Msun
+11/05/2020 04:39:49.677     Total metallic mass : 1.5064e+07 Msun
+11/05/2020 04:39:49.677     Total effective mass: 1.5064e+07 Msun
+11/05/2020 04:39:49.677   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:49.713     Smallest number of particles per cell: 0
+11/05/2020 04:39:49.713     Largest  number of particles per cell: 1443
+11/05/2020 04:39:49.713     Average  number of particles per cell: 144.4
+11/05/2020 04:39:49.714   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:50.057   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:50.057   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_4.365576e-07_C.txt...
+11/05/2020 04:39:50.057     Column 1: position x (pc)
+11/05/2020 04:39:50.057     Column 2: position y (pc)
+11/05/2020 04:39:50.057     Column 3: position z (pc)
+11/05/2020 04:39:50.057     Column 4: size h (pc)
+11/05/2020 04:39:50.057     Column 5: mass (Msun)
+11/05/2020 04:39:50.151   Done reading
+11/05/2020 04:39:50.151     Number of particles: 28612
+11/05/2020 04:39:50.152     Total original mass : 1.6203e+07 Msun
+11/05/2020 04:39:50.152     Total metallic mass : 1.6203e+07 Msun
+11/05/2020 04:39:50.152     Total effective mass: 1.6203e+07 Msun
+11/05/2020 04:39:50.152   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:50.188     Smallest number of particles per cell: 0
+11/05/2020 04:39:50.188     Largest  number of particles per cell: 1443
+11/05/2020 04:39:50.188     Average  number of particles per cell: 144.4
+11/05/2020 04:39:50.189   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:50.530   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:50.530   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_5.973519e-07_C.txt...
+11/05/2020 04:39:50.530     Column 1: position x (pc)
+11/05/2020 04:39:50.530     Column 2: position y (pc)
+11/05/2020 04:39:50.530     Column 3: position z (pc)
+11/05/2020 04:39:50.530     Column 4: size h (pc)
+11/05/2020 04:39:50.530     Column 5: mass (Msun)
+11/05/2020 04:39:50.625   Done reading
+11/05/2020 04:39:50.625     Number of particles: 28612
+11/05/2020 04:39:50.625     Total original mass : 1.6323e+07 Msun
+11/05/2020 04:39:50.626     Total metallic mass : 1.6323e+07 Msun
+11/05/2020 04:39:50.626     Total effective mass: 1.6323e+07 Msun
+11/05/2020 04:39:50.626   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:50.661     Smallest number of particles per cell: 0
+11/05/2020 04:39:50.661     Largest  number of particles per cell: 1443
+11/05/2020 04:39:50.661     Average  number of particles per cell: 144.4
+11/05/2020 04:39:50.662   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:51.005   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:51.005   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_8.173704e-07_C.txt...
+11/05/2020 04:39:51.005     Column 1: position x (pc)
+11/05/2020 04:39:51.005     Column 2: position y (pc)
+11/05/2020 04:39:51.005     Column 3: position z (pc)
+11/05/2020 04:39:51.005     Column 4: size h (pc)
+11/05/2020 04:39:51.005     Column 5: mass (Msun)
+11/05/2020 04:39:51.099   Done reading
+11/05/2020 04:39:51.099     Number of particles: 28612
+11/05/2020 04:39:51.100     Total original mass : 1.5438e+07 Msun
+11/05/2020 04:39:51.100     Total metallic mass : 1.5438e+07 Msun
+11/05/2020 04:39:51.100     Total effective mass: 1.5438e+07 Msun
+11/05/2020 04:39:51.100   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:51.135     Smallest number of particles per cell: 0
+11/05/2020 04:39:51.135     Largest  number of particles per cell: 1443
+11/05/2020 04:39:51.135     Average  number of particles per cell: 144.4
+11/05/2020 04:39:51.136   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:51.479   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:51.479   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_1.118427e-06_C.txt...
+11/05/2020 04:39:51.479     Column 1: position x (pc)
+11/05/2020 04:39:51.479     Column 2: position y (pc)
+11/05/2020 04:39:51.479     Column 3: position z (pc)
+11/05/2020 04:39:51.479     Column 4: size h (pc)
+11/05/2020 04:39:51.479     Column 5: mass (Msun)
+11/05/2020 04:39:51.573   Done reading
+11/05/2020 04:39:51.573     Number of particles: 28612
+11/05/2020 04:39:51.574     Total original mass : 1.4845e+07 Msun
+11/05/2020 04:39:51.574     Total metallic mass : 1.4845e+07 Msun
+11/05/2020 04:39:51.574     Total effective mass: 1.4845e+07 Msun
+11/05/2020 04:39:51.574   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:51.609     Smallest number of particles per cell: 0
+11/05/2020 04:39:51.609     Largest  number of particles per cell: 1443
+11/05/2020 04:39:51.609     Average  number of particles per cell: 144.4
+11/05/2020 04:39:51.610   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:51.950   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:51.950   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_1.530369e-06_C.txt...
+11/05/2020 04:39:51.950     Column 1: position x (pc)
+11/05/2020 04:39:51.950     Column 2: position y (pc)
+11/05/2020 04:39:51.950     Column 3: position z (pc)
+11/05/2020 04:39:51.950     Column 4: size h (pc)
+11/05/2020 04:39:51.950     Column 5: mass (Msun)
+11/05/2020 04:39:52.045   Done reading
+11/05/2020 04:39:52.045     Number of particles: 28612
+11/05/2020 04:39:52.045     Total original mass : 1.3187e+07 Msun
+11/05/2020 04:39:52.045     Total metallic mass : 1.3187e+07 Msun
+11/05/2020 04:39:52.045     Total effective mass: 1.3187e+07 Msun
+11/05/2020 04:39:52.045   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:52.081     Smallest number of particles per cell: 0
+11/05/2020 04:39:52.081     Largest  number of particles per cell: 1443
+11/05/2020 04:39:52.081     Average  number of particles per cell: 144.4
+11/05/2020 04:39:52.082   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:52.426   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:52.426   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_2.09404e-06_C.txt...
+11/05/2020 04:39:52.426     Column 1: position x (pc)
+11/05/2020 04:39:52.427     Column 2: position y (pc)
+11/05/2020 04:39:52.427     Column 3: position z (pc)
+11/05/2020 04:39:52.427     Column 4: size h (pc)
+11/05/2020 04:39:52.427     Column 5: mass (Msun)
+11/05/2020 04:39:52.520   Done reading
+11/05/2020 04:39:52.520     Number of particles: 28612
+11/05/2020 04:39:52.521     Total original mass : 1.2995e+07 Msun
+11/05/2020 04:39:52.521     Total metallic mass : 1.2995e+07 Msun
+11/05/2020 04:39:52.521     Total effective mass: 1.2995e+07 Msun
+11/05/2020 04:39:52.521   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:52.557     Smallest number of particles per cell: 0
+11/05/2020 04:39:52.557     Largest  number of particles per cell: 1443
+11/05/2020 04:39:52.557     Average  number of particles per cell: 144.4
+11/05/2020 04:39:52.558   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:52.899   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:52.899   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_2.865323e-06_C.txt...
+11/05/2020 04:39:52.899     Column 1: position x (pc)
+11/05/2020 04:39:52.899     Column 2: position y (pc)
+11/05/2020 04:39:52.899     Column 3: position z (pc)
+11/05/2020 04:39:52.899     Column 4: size h (pc)
+11/05/2020 04:39:52.899     Column 5: mass (Msun)
+11/05/2020 04:39:52.994   Done reading
+11/05/2020 04:39:52.994     Number of particles: 28612
+11/05/2020 04:39:52.994     Total original mass : 1.3253e+07 Msun
+11/05/2020 04:39:52.995     Total metallic mass : 1.3253e+07 Msun
+11/05/2020 04:39:52.995     Total effective mass: 1.3253e+07 Msun
+11/05/2020 04:39:52.995   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:53.030     Smallest number of particles per cell: 0
+11/05/2020 04:39:53.030     Largest  number of particles per cell: 1443
+11/05/2020 04:39:53.030     Average  number of particles per cell: 144.4
+11/05/2020 04:39:53.031   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:53.375   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:53.375   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_3.920688e-06_C.txt...
+11/05/2020 04:39:53.375     Column 1: position x (pc)
+11/05/2020 04:39:53.375     Column 2: position y (pc)
+11/05/2020 04:39:53.375     Column 3: position z (pc)
+11/05/2020 04:39:53.375     Column 4: size h (pc)
+11/05/2020 04:39:53.375     Column 5: mass (Msun)
+11/05/2020 04:39:53.469   Done reading
+11/05/2020 04:39:53.469     Number of particles: 28612
+11/05/2020 04:39:53.470     Total original mass : 1.5850e+07 Msun
+11/05/2020 04:39:53.470     Total metallic mass : 1.5850e+07 Msun
+11/05/2020 04:39:53.470     Total effective mass: 1.5850e+07 Msun
+11/05/2020 04:39:53.470   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:53.505     Smallest number of particles per cell: 0
+11/05/2020 04:39:53.505     Largest  number of particles per cell: 1443
+11/05/2020 04:39:53.505     Average  number of particles per cell: 144.4
+11/05/2020 04:39:53.506   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:53.848   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:53.848   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_5.364768e-06_C.txt...
+11/05/2020 04:39:53.849     Column 1: position x (pc)
+11/05/2020 04:39:53.849     Column 2: position y (pc)
+11/05/2020 04:39:53.849     Column 3: position z (pc)
+11/05/2020 04:39:53.849     Column 4: size h (pc)
+11/05/2020 04:39:53.849     Column 5: mass (Msun)
+11/05/2020 04:39:53.944   Done reading
+11/05/2020 04:39:53.944     Number of particles: 28612
+11/05/2020 04:39:53.945     Total original mass : 1.9688e+07 Msun
+11/05/2020 04:39:53.945     Total metallic mass : 1.9688e+07 Msun
+11/05/2020 04:39:53.945     Total effective mass: 1.9688e+07 Msun
+11/05/2020 04:39:53.945   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:53.980     Smallest number of particles per cell: 0
+11/05/2020 04:39:53.980     Largest  number of particles per cell: 1443
+11/05/2020 04:39:53.980     Average  number of particles per cell: 144.4
+11/05/2020 04:39:53.981   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:54.337   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:54.337   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_7.340736e-06_C.txt...
+11/05/2020 04:39:54.337     Column 1: position x (pc)
+11/05/2020 04:39:54.337     Column 2: position y (pc)
+11/05/2020 04:39:54.337     Column 3: position z (pc)
+11/05/2020 04:39:54.337     Column 4: size h (pc)
+11/05/2020 04:39:54.337     Column 5: mass (Msun)
+11/05/2020 04:39:54.434   Done reading
+11/05/2020 04:39:54.434     Number of particles: 28612
+11/05/2020 04:39:54.435     Total original mass : 1.9118e+07 Msun
+11/05/2020 04:39:54.435     Total metallic mass : 1.9118e+07 Msun
+11/05/2020 04:39:54.435     Total effective mass: 1.9118e+07 Msun
+11/05/2020 04:39:54.435   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:54.470     Smallest number of particles per cell: 0
+11/05/2020 04:39:54.470     Largest  number of particles per cell: 1443
+11/05/2020 04:39:54.470     Average  number of particles per cell: 144.4
+11/05/2020 04:39:54.471   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:54.812   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:54.812   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_1.00445e-05_C.txt...
+11/05/2020 04:39:54.812     Column 1: position x (pc)
+11/05/2020 04:39:54.812     Column 2: position y (pc)
+11/05/2020 04:39:54.812     Column 3: position z (pc)
+11/05/2020 04:39:54.812     Column 4: size h (pc)
+11/05/2020 04:39:54.812     Column 5: mass (Msun)
+11/05/2020 04:39:54.906   Done reading
+11/05/2020 04:39:54.906     Number of particles: 28612
+11/05/2020 04:39:54.907     Total original mass : 1.2396e+07 Msun
+11/05/2020 04:39:54.907     Total metallic mass : 1.2396e+07 Msun
+11/05/2020 04:39:54.907     Total effective mass: 1.2396e+07 Msun
+11/05/2020 04:39:54.907   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:54.943     Smallest number of particles per cell: 0
+11/05/2020 04:39:54.943     Largest  number of particles per cell: 1443
+11/05/2020 04:39:54.943     Average  number of particles per cell: 144.4
+11/05/2020 04:39:54.944   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:55.287   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:55.287   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_1.374412e-05_C.txt...
+11/05/2020 04:39:55.287     Column 1: position x (pc)
+11/05/2020 04:39:55.287     Column 2: position y (pc)
+11/05/2020 04:39:55.287     Column 3: position z (pc)
+11/05/2020 04:39:55.287     Column 4: size h (pc)
+11/05/2020 04:39:55.287     Column 5: mass (Msun)
+11/05/2020 04:39:55.382   Done reading
+11/05/2020 04:39:55.382     Number of particles: 28612
+11/05/2020 04:39:55.383     Total original mass : 6.5108e+06 Msun
+11/05/2020 04:39:55.383     Total metallic mass : 6.5108e+06 Msun
+11/05/2020 04:39:55.383     Total effective mass: 6.5108e+06 Msun
+11/05/2020 04:39:55.383   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:55.418     Smallest number of particles per cell: 0
+11/05/2020 04:39:55.418     Largest  number of particles per cell: 1443
+11/05/2020 04:39:55.418     Average  number of particles per cell: 144.4
+11/05/2020 04:39:55.419   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:55.760   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:55.761   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_1.88064e-05_C.txt...
+11/05/2020 04:39:55.761     Column 1: position x (pc)
+11/05/2020 04:39:55.761     Column 2: position y (pc)
+11/05/2020 04:39:55.761     Column 3: position z (pc)
+11/05/2020 04:39:55.761     Column 4: size h (pc)
+11/05/2020 04:39:55.761     Column 5: mass (Msun)
+11/05/2020 04:39:55.854   Done reading
+11/05/2020 04:39:55.854     Number of particles: 28612
+11/05/2020 04:39:55.855     Total original mass : 4.4301e+06 Msun
+11/05/2020 04:39:55.855     Total metallic mass : 4.4301e+06 Msun
+11/05/2020 04:39:55.855     Total effective mass: 4.4301e+06 Msun
+11/05/2020 04:39:55.855   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:55.891     Smallest number of particles per cell: 0
+11/05/2020 04:39:55.891     Largest  number of particles per cell: 1443
+11/05/2020 04:39:55.891     Average  number of particles per cell: 144.4
+11/05/2020 04:39:55.892   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:56.236   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:56.236   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_2.573323e-05_C.txt...
+11/05/2020 04:39:56.236     Column 1: position x (pc)
+11/05/2020 04:39:56.236     Column 2: position y (pc)
+11/05/2020 04:39:56.236     Column 3: position z (pc)
+11/05/2020 04:39:56.236     Column 4: size h (pc)
+11/05/2020 04:39:56.236     Column 5: mass (Msun)
+11/05/2020 04:39:56.330   Done reading
+11/05/2020 04:39:56.330     Number of particles: 28612
+11/05/2020 04:39:56.331     Total original mass : 3.1211e+06 Msun
+11/05/2020 04:39:56.331     Total metallic mass : 3.1211e+06 Msun
+11/05/2020 04:39:56.331     Total effective mass: 3.1211e+06 Msun
+11/05/2020 04:39:56.331   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:56.366     Smallest number of particles per cell: 0
+11/05/2020 04:39:56.366     Largest  number of particles per cell: 1443
+11/05/2020 04:39:56.367     Average  number of particles per cell: 144.4
+11/05/2020 04:39:56.368   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:56.712   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:56.712   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_3.521137e-05_C.txt...
+11/05/2020 04:39:56.712     Column 1: position x (pc)
+11/05/2020 04:39:56.712     Column 2: position y (pc)
+11/05/2020 04:39:56.712     Column 3: position z (pc)
+11/05/2020 04:39:56.712     Column 4: size h (pc)
+11/05/2020 04:39:56.712     Column 5: mass (Msun)
+11/05/2020 04:39:56.806   Done reading
+11/05/2020 04:39:56.806     Number of particles: 28612
+11/05/2020 04:39:56.807     Total original mass : 1.9397e+06 Msun
+11/05/2020 04:39:56.807     Total metallic mass : 1.9397e+06 Msun
+11/05/2020 04:39:56.807     Total effective mass: 1.9397e+06 Msun
+11/05/2020 04:39:56.807   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:56.842     Smallest number of particles per cell: 0
+11/05/2020 04:39:56.842     Largest  number of particles per cell: 1443
+11/05/2020 04:39:56.842     Average  number of particles per cell: 144.4
+11/05/2020 04:39:56.843   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:57.183   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:57.183   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_4.818053e-05_C.txt...
+11/05/2020 04:39:57.183     Column 1: position x (pc)
+11/05/2020 04:39:57.183     Column 2: position y (pc)
+11/05/2020 04:39:57.184     Column 3: position z (pc)
+11/05/2020 04:39:57.184     Column 4: size h (pc)
+11/05/2020 04:39:57.184     Column 5: mass (Msun)
+11/05/2020 04:39:57.278   Done reading
+11/05/2020 04:39:57.278     Number of particles: 28612
+11/05/2020 04:39:57.278     Total original mass : 9.0156e+05 Msun
+11/05/2020 04:39:57.278     Total metallic mass : 9.0156e+05 Msun
+11/05/2020 04:39:57.278     Total effective mass: 9.0156e+05 Msun
+11/05/2020 04:39:57.278   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:57.314     Smallest number of particles per cell: 0
+11/05/2020 04:39:57.314     Largest  number of particles per cell: 1443
+11/05/2020 04:39:57.314     Average  number of particles per cell: 144.4
+11/05/2020 04:39:57.315   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:57.658   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:57.658   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_6.592654e-05_C.txt...
+11/05/2020 04:39:57.658     Column 1: position x (pc)
+11/05/2020 04:39:57.658     Column 2: position y (pc)
+11/05/2020 04:39:57.658     Column 3: position z (pc)
+11/05/2020 04:39:57.658     Column 4: size h (pc)
+11/05/2020 04:39:57.658     Column 5: mass (Msun)
+11/05/2020 04:39:57.752   Done reading
+11/05/2020 04:39:57.752     Number of particles: 28612
+11/05/2020 04:39:57.753     Total original mass : 2.9084e+05 Msun
+11/05/2020 04:39:57.753     Total metallic mass : 2.9084e+05 Msun
+11/05/2020 04:39:57.753     Total effective mass: 2.9084e+05 Msun
+11/05/2020 04:39:57.753   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:57.788     Smallest number of particles per cell: 0
+11/05/2020 04:39:57.788     Largest  number of particles per cell: 1443
+11/05/2020 04:39:57.788     Average  number of particles per cell: 144.4
+11/05/2020 04:39:57.789   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:58.132   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:58.132   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_9.020881e-05_C.txt...
+11/05/2020 04:39:58.132     Column 1: position x (pc)
+11/05/2020 04:39:58.132     Column 2: position y (pc)
+11/05/2020 04:39:58.132     Column 3: position z (pc)
+11/05/2020 04:39:58.132     Column 4: size h (pc)
+11/05/2020 04:39:58.132     Column 5: mass (Msun)
+11/05/2020 04:39:58.226   Done reading
+11/05/2020 04:39:58.226     Number of particles: 28612
+11/05/2020 04:39:58.227     Total original mass : 6.2120e+04 Msun
+11/05/2020 04:39:58.227     Total metallic mass : 6.2120e+04 Msun
+11/05/2020 04:39:58.227     Total effective mass: 6.2120e+04 Msun
+11/05/2020 04:39:58.227   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:58.262     Smallest number of particles per cell: 0
+11/05/2020 04:39:58.263     Largest  number of particles per cell: 1443
+11/05/2020 04:39:58.263     Average  number of particles per cell: 144.4
+11/05/2020 04:39:58.264   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:58.605   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:58.605   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_0.0001234348_C.txt...
+11/05/2020 04:39:58.605     Column 1: position x (pc)
+11/05/2020 04:39:58.605     Column 2: position y (pc)
+11/05/2020 04:39:58.605     Column 3: position z (pc)
+11/05/2020 04:39:58.605     Column 4: size h (pc)
+11/05/2020 04:39:58.605     Column 5: mass (Msun)
+11/05/2020 04:39:58.698   Done reading
+11/05/2020 04:39:58.698     Number of particles: 28612
+11/05/2020 04:39:58.699     Total original mass : 8.8375e+03 Msun
+11/05/2020 04:39:58.699     Total metallic mass : 8.8375e+03 Msun
+11/05/2020 04:39:58.699     Total effective mass: 8.8375e+03 Msun
+11/05/2020 04:39:58.699   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:58.734     Smallest number of particles per cell: 0
+11/05/2020 04:39:58.734     Largest  number of particles per cell: 1443
+11/05/2020 04:39:58.734     Average  number of particles per cell: 144.4
+11/05/2020 04:39:58.735   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:59.080   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:59.080   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_0.0001688987_C.txt...
+11/05/2020 04:39:59.081     Column 1: position x (pc)
+11/05/2020 04:39:59.081     Column 2: position y (pc)
+11/05/2020 04:39:59.081     Column 3: position z (pc)
+11/05/2020 04:39:59.081     Column 4: size h (pc)
+11/05/2020 04:39:59.081     Column 5: mass (Msun)
+11/05/2020 04:39:59.176   Done reading
+11/05/2020 04:39:59.176     Number of particles: 28612
+11/05/2020 04:39:59.176     Total original mass : 8.2469e+02 Msun
+11/05/2020 04:39:59.176     Total metallic mass : 8.2469e+02 Msun
+11/05/2020 04:39:59.176     Total effective mass: 8.2469e+02 Msun
+11/05/2020 04:39:59.176   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:59.212     Smallest number of particles per cell: 0
+11/05/2020 04:39:59.212     Largest  number of particles per cell: 1443
+11/05/2020 04:39:59.212     Average  number of particles per cell: 144.4
+11/05/2020 04:39:59.213   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:39:59.558   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:39:59.558   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_0.000231108_C.txt...
+11/05/2020 04:39:59.558     Column 1: position x (pc)
+11/05/2020 04:39:59.558     Column 2: position y (pc)
+11/05/2020 04:39:59.558     Column 3: position z (pc)
+11/05/2020 04:39:59.558     Column 4: size h (pc)
+11/05/2020 04:39:59.558     Column 5: mass (Msun)
+11/05/2020 04:39:59.653   Done reading
+11/05/2020 04:39:59.653     Number of particles: 28612
+11/05/2020 04:39:59.654     Total original mass : 5.0827e+01 Msun
+11/05/2020 04:39:59.654     Total metallic mass : 5.0827e+01 Msun
+11/05/2020 04:39:59.654     Total effective mass: 5.0827e+01 Msun
+11/05/2020 04:39:59.654   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:39:59.689     Smallest number of particles per cell: 0
+11/05/2020 04:39:59.689     Largest  number of particles per cell: 1443
+11/05/2020 04:39:59.689     Average  number of particles per cell: 144.4
+11/05/2020 04:39:59.690   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:40:00.046   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:40:00.046   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_0.0003162304_C.txt...
+11/05/2020 04:40:00.046     Column 1: position x (pc)
+11/05/2020 04:40:00.046     Column 2: position y (pc)
+11/05/2020 04:40:00.046     Column 3: position z (pc)
+11/05/2020 04:40:00.046     Column 4: size h (pc)
+11/05/2020 04:40:00.046     Column 5: mass (Msun)
+11/05/2020 04:40:00.142   Done reading
+11/05/2020 04:40:00.142     Number of particles: 28612
+11/05/2020 04:40:00.142     Total original mass : 2.0654e+00 Msun
+11/05/2020 04:40:00.142     Total metallic mass : 2.0654e+00 Msun
+11/05/2020 04:40:00.142     Total effective mass: 2.0654e+00 Msun
+11/05/2020 04:40:00.142   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:40:00.178     Smallest number of particles per cell: 0
+11/05/2020 04:40:00.178     Largest  number of particles per cell: 1443
+11/05/2020 04:40:00.178     Average  number of particles per cell: 144.4
+11/05/2020 04:40:00.179   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineGraphiteOpticalProps.stab
+11/05/2020 04:40:00.525   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 04:40:00.525   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/DustSphere_gas_0.0004327054_C.txt...
+11/05/2020 04:40:00.525     Column 1: position x (pc)
+11/05/2020 04:40:00.525     Column 2: position y (pc)
+11/05/2020 04:40:00.525     Column 3: position z (pc)
+11/05/2020 04:40:00.525     Column 4: size h (pc)
+11/05/2020 04:40:00.525     Column 5: mass (Msun)
+11/05/2020 04:40:00.620   Done reading
+11/05/2020 04:40:00.620     Number of particles: 28612
+11/05/2020 04:40:00.621     Total original mass : 5.5874e-02 Msun
+11/05/2020 04:40:00.621     Total metallic mass : 5.5874e-02 Msun
+11/05/2020 04:40:00.621     Total effective mass: 5.5874e-02 Msun
+11/05/2020 04:40:00.621   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 04:40:00.656     Smallest number of particles per cell: 0
+11/05/2020 04:40:00.656     Largest  number of particles per cell: 1443
+11/05/2020 04:40:00.656     Average  number of particles per cell: 144.4
+11/05/2020 04:40:00.657   Constructing the spatial tree grid...
+11/05/2020 04:40:00.657   Subdividing level 0: 1 nodes
+11/05/2020 04:40:00.657   Subdividing level 1: 8 nodes
+11/05/2020 04:40:00.657   Subdividing level 2: 64 nodes
+11/05/2020 04:40:00.657   Subdividing level 3: 512 nodes
+11/05/2020 04:40:04.224   Subdividing level 4: 592 nodes
+11/05/2020 04:40:09.663   Evaluation for level 4: 69.9%
+11/05/2020 04:40:11.358   Subdividing level 5: 2768 nodes
+11/05/2020 04:40:16.517   Evaluation for level 5: 9.3%
+11/05/2020 04:40:22.654   Evaluation for level 5: 24.9%
+11/05/2020 04:40:27.711   Evaluation for level 5: 40.4%
+11/05/2020 04:40:32.737   Evaluation for level 5: 49.7%
+11/05/2020 04:40:41.963   Evaluation for level 5: 71.5%
+11/05/2020 04:40:48.013   Evaluation for level 5: 87.0%
+11/05/2020 04:40:49.373   Subdividing level 6: 15720 nodes
+11/05/2020 04:41:03.963   Evaluation for level 6: 3.1%
+11/05/2020 04:41:13.586   Evaluation for level 6: 6.2%
+11/05/2020 04:41:23.651   Evaluation for level 6: 9.4%
+11/05/2020 04:41:35.767   Evaluation for level 6: 15.6%
+11/05/2020 04:41:46.843   Evaluation for level 6: 18.7%
+11/05/2020 04:41:54.462   Evaluation for level 6: 25.0%
+11/05/2020 04:41:59.910   Evaluation for level 6: 28.1%
+11/05/2020 04:42:20.539   Evaluation for level 6: 31.2%
+11/05/2020 04:42:26.756   Evaluation for level 6: 34.4%
+11/05/2020 04:42:38.124   Evaluation for level 6: 43.7%
+11/05/2020 04:42:48.646   Evaluation for level 6: 46.9%
+11/05/2020 04:43:06.371   Evaluation for level 6: 50.0%
+11/05/2020 04:43:17.660   Evaluation for level 6: 59.3%
+11/05/2020 04:43:30.493   Evaluation for level 6: 65.6%
+11/05/2020 04:43:51.416   Evaluation for level 6: 71.8%
+11/05/2020 04:44:05.177   Evaluation for level 6: 75.0%
+11/05/2020 04:44:19.293   Evaluation for level 6: 81.2%
+11/05/2020 04:44:32.612   Evaluation for level 6: 87.5%
+11/05/2020 04:44:39.276   Evaluation for level 6: 93.8%
+11/05/2020 04:44:40.961   Finished construction of the spatial tree grid
+11/05/2020 04:44:40.961   Number of cells at each level in the tree hierarchy:
+11/05/2020 04:44:40.961     Level  0:        0 (  0.0%)  |
+11/05/2020 04:44:40.961     Level  1:        0 (  0.0%)  |
+11/05/2020 04:44:40.961     Level  2:        0 (  0.0%)  |
+11/05/2020 04:44:40.961     Level  3:      438 (  0.4%)  |
+11/05/2020 04:44:40.961     Level  4:      246 (  0.3%)  |
+11/05/2020 04:44:40.961     Level  5:      803 (  0.8%)  |
+11/05/2020 04:44:40.961     Level  6:     4260 (  4.4%)  |*
+11/05/2020 04:44:40.961     Level  7:    91680 ( 94.1%)  |********************
+11/05/2020 04:44:40.961     TOTAL   :    97427 (100.0%)
+11/05/2020 04:44:41.170   MediumSystem allocated 541 MB of memory
+11/05/2020 04:44:41.170   Calculating densities for 97427 cells...
+11/05/2020 04:46:38.095   Calculated cell densities: 3.1%
+11/05/2020 04:47:52.602   Calculated cell densities: 12.5%
+11/05/2020 04:49:42.890   Calculated cell densities: 15.6%
+11/05/2020 04:50:05.743   Calculated cell densities: 18.7%
+11/05/2020 04:51:30.270   Calculated cell densities: 21.9%
+11/05/2020 04:52:08.455   Calculated cell densities: 25.0%
+11/05/2020 04:54:04.155   Calculated cell densities: 31.2%
+11/05/2020 04:55:23.163   Calculated cell densities: 34.4%
+11/05/2020 04:55:47.853   Calculated cell densities: 37.5%
+11/05/2020 04:56:18.032   Calculated cell densities: 40.6%
+11/05/2020 04:56:40.900   Calculated cell densities: 43.7%
+11/05/2020 04:57:27.789   Calculated cell densities: 46.9%
+11/05/2020 04:57:57.904   Calculated cell densities: 50.0%
+11/05/2020 04:59:46.953   Calculated cell densities: 53.1%
+11/05/2020 05:00:04.094   Calculated cell densities: 56.2%
+11/05/2020 05:00:32.114   Calculated cell densities: 59.4%
+11/05/2020 05:01:41.451   Calculated cell densities: 62.5%
+11/05/2020 05:02:30.777   Calculated cell densities: 65.6%
+11/05/2020 05:02:39.364   Calculated cell densities: 68.7%
+11/05/2020 05:03:07.985   Calculated cell densities: 71.9%
+11/05/2020 05:05:42.584   Calculated cell densities: 75.0%
+11/05/2020 05:07:43.703   Calculated cell densities: 78.1%
+11/05/2020 05:09:01.107   Calculated cell densities: 81.2%
+11/05/2020 05:09:08.271   Calculated cell densities: 84.4%
+11/05/2020 05:09:42.766   Calculated cell densities: 90.6%
+11/05/2020 05:10:08.507   Calculated cell densities: 93.8%
+11/05/2020 05:10:21.928   Calculated cell densities: 100.0%
+11/05/2020 05:10:21.928   Done calculating cell densities
+11/05/2020 05:10:21.967   SEDInstrument SED allocated 7.81 KB of memory
+11/05/2020 05:10:21.967 - Finished setup in 1853 s (30m 53s).
+11/05/2020 05:10:21.967   Starting setup output...
+11/05/2020 05:11:01.194   DefaultMediaDensityCutsProbe dns wrote dust theoretical density in the xy plane to FITS file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/Dusty_dns_dust_t_xy.fits
+11/05/2020 05:11:01.199   DefaultMediaDensityCutsProbe dns wrote dust gridded density in the xy plane to FITS file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/Dusty_dns_dust_g_xy.fits
+11/05/2020 05:11:48.229   DefaultMediaDensityCutsProbe dns wrote dust theoretical density in the xz plane to FITS file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/Dusty_dns_dust_t_xz.fits
+11/05/2020 05:11:48.233   DefaultMediaDensityCutsProbe dns wrote dust gridded density in the xz plane to FITS file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/Dusty_dns_dust_g_xz.fits
+11/05/2020 05:13:17.615   DefaultMediaDensityCutsProbe dns wrote dust theoretical density in the yz plane to FITS file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/Dusty_dns_dust_t_yz.fits
+11/05/2020 05:13:17.620   DefaultMediaDensityCutsProbe dns wrote dust gridded density in the yz plane to FITS file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/Dusty_dns_dust_g_yz.fits
+11/05/2020 05:13:17.620 - Finished setup output in 176 s (2m 56s).
+11/05/2020 05:13:17.620   Starting the run...
+11/05/2020 05:13:17.620   Starting primary emission...
+11/05/2020 05:13:17.636   Launching 1e7 primary emission photon packets
+11/05/2020 05:13:23.253   Launched primary emission photon packets: 0.9%
+11/05/2020 05:13:28.874   Launched primary emission photon packets: 2.1%
+11/05/2020 05:13:34.603   Launched primary emission photon packets: 3.3%
+11/05/2020 05:13:40.276   Launched primary emission photon packets: 4.5%
+11/05/2020 05:13:45.935   Launched primary emission photon packets: 5.7%
+11/05/2020 05:13:51.634   Launched primary emission photon packets: 6.9%
+11/05/2020 05:13:57.267   Launched primary emission photon packets: 8.1%
+11/05/2020 05:14:02.939   Launched primary emission photon packets: 9.3%
+11/05/2020 05:14:08.500   Launched primary emission photon packets: 10.5%
+11/05/2020 05:14:14.204   Launched primary emission photon packets: 11.7%
+11/05/2020 05:14:19.320   Launched primary emission photon packets: 12.9%
+11/05/2020 05:14:24.646   Launched primary emission photon packets: 13.9%
+11/05/2020 05:14:29.838   Launched primary emission photon packets: 15.0%
+11/05/2020 05:14:35.528   Launched primary emission photon packets: 16.2%
+11/05/2020 05:14:41.178   Launched primary emission photon packets: 17.4%
+11/05/2020 05:14:46.820   Launched primary emission photon packets: 18.6%
+11/05/2020 05:14:52.464   Launched primary emission photon packets: 19.8%
+11/05/2020 05:14:58.146   Launched primary emission photon packets: 21.0%
+11/05/2020 05:15:03.225   Launched primary emission photon packets: 22.1%
+11/05/2020 05:15:08.978   Launched primary emission photon packets: 23.3%
+11/05/2020 05:15:14.661   Launched primary emission photon packets: 24.5%
+11/05/2020 05:15:20.869   Launched primary emission photon packets: 25.8%
+11/05/2020 05:15:26.627   Launched primary emission photon packets: 27.0%
+11/05/2020 05:15:32.356   Launched primary emission photon packets: 28.2%
+11/05/2020 05:15:37.918   Launched primary emission photon packets: 29.4%
+11/05/2020 05:15:43.573   Launched primary emission photon packets: 30.6%
+11/05/2020 05:15:49.158   Launched primary emission photon packets: 31.8%
+11/05/2020 05:15:55.822   Launched primary emission photon packets: 33.0%
+11/05/2020 05:16:01.878   Launched primary emission photon packets: 34.2%
+11/05/2020 05:16:07.601   Launched primary emission photon packets: 35.4%
+11/05/2020 05:16:13.210   Launched primary emission photon packets: 36.6%
+11/05/2020 05:16:18.252   Launched primary emission photon packets: 37.8%
+11/05/2020 05:16:23.579   Launched primary emission photon packets: 38.9%
+11/05/2020 05:16:28.596   Launched primary emission photon packets: 39.9%
+11/05/2020 05:16:34.201   Launched primary emission photon packets: 41.1%
+11/05/2020 05:16:39.788   Launched primary emission photon packets: 42.3%
+11/05/2020 05:16:45.380   Launched primary emission photon packets: 43.5%
+11/05/2020 05:16:50.551   Launched primary emission photon packets: 44.6%
+11/05/2020 05:16:55.826   Launched primary emission photon packets: 45.7%
+11/05/2020 05:17:01.390   Launched primary emission photon packets: 46.9%
+11/05/2020 05:17:07.011   Launched primary emission photon packets: 48.1%
+11/05/2020 05:17:12.646   Launched primary emission photon packets: 49.3%
+11/05/2020 05:17:17.665   Launched primary emission photon packets: 50.3%
+11/05/2020 05:17:23.271   Launched primary emission photon packets: 51.5%
+11/05/2020 05:17:28.937   Launched primary emission photon packets: 52.7%
+11/05/2020 05:17:34.620   Launched primary emission photon packets: 53.9%
+11/05/2020 05:17:40.232   Launched primary emission photon packets: 55.1%
+11/05/2020 05:17:45.886   Launched primary emission photon packets: 56.3%
+11/05/2020 05:17:51.508   Launched primary emission photon packets: 57.5%
+11/05/2020 05:17:57.077   Launched primary emission photon packets: 58.7%
+11/05/2020 05:18:02.234   Launched primary emission photon packets: 59.8%
+11/05/2020 05:18:07.508   Launched primary emission photon packets: 60.9%
+11/05/2020 05:18:12.609   Launched primary emission photon packets: 62.0%
+11/05/2020 05:18:17.934   Launched primary emission photon packets: 63.1%
+11/05/2020 05:18:23.285   Launched primary emission photon packets: 64.2%
+11/05/2020 05:18:28.988   Launched primary emission photon packets: 65.4%
+11/05/2020 05:18:34.707   Launched primary emission photon packets: 66.6%
+11/05/2020 05:18:40.479   Launched primary emission photon packets: 67.8%
+11/05/2020 05:18:46.317   Launched primary emission photon packets: 69.0%
+11/05/2020 05:18:52.117   Launched primary emission photon packets: 70.2%
+11/05/2020 05:18:57.922   Launched primary emission photon packets: 71.4%
+11/05/2020 05:19:03.673   Launched primary emission photon packets: 72.6%
+11/05/2020 05:19:09.230   Launched primary emission photon packets: 73.8%
+11/05/2020 05:19:14.465   Launched primary emission photon packets: 74.8%
+11/05/2020 05:19:19.968   Launched primary emission photon packets: 75.9%
+11/05/2020 05:19:25.251   Launched primary emission photon packets: 76.9%
+11/05/2020 05:19:30.719   Launched primary emission photon packets: 78.0%
+11/05/2020 05:19:35.781   Launched primary emission photon packets: 79.0%
+11/05/2020 05:19:41.460   Launched primary emission photon packets: 80.0%
+11/05/2020 05:19:47.351   Launched primary emission photon packets: 81.2%
+11/05/2020 05:19:53.658   Launched primary emission photon packets: 82.4%
+11/05/2020 05:19:59.572   Launched primary emission photon packets: 83.6%
+11/05/2020 05:20:05.326   Launched primary emission photon packets: 84.7%
+11/05/2020 05:20:10.634   Launched primary emission photon packets: 85.8%
+11/05/2020 05:20:16.274   Launched primary emission photon packets: 86.7%
+11/05/2020 05:20:21.373   Launched primary emission photon packets: 87.8%
+11/05/2020 05:20:26.532   Launched primary emission photon packets: 88.6%
+11/05/2020 05:20:31.619   Launched primary emission photon packets: 89.3%
+11/05/2020 05:20:36.654   Launched primary emission photon packets: 90.1%
+11/05/2020 05:20:41.766   Launched primary emission photon packets: 91.0%
+11/05/2020 05:20:46.800   Launched primary emission photon packets: 91.8%
+11/05/2020 05:20:52.148   Launched primary emission photon packets: 92.6%
+11/05/2020 05:20:57.196   Launched primary emission photon packets: 93.3%
+11/05/2020 05:21:02.686   Launched primary emission photon packets: 94.1%
+11/05/2020 05:21:08.009   Launched primary emission photon packets: 95.0%
+11/05/2020 05:21:13.222   Launched primary emission photon packets: 95.8%
+11/05/2020 05:21:18.469   Launched primary emission photon packets: 96.6%
+11/05/2020 05:21:23.469   Launched primary emission photon packets: 97.4%
+11/05/2020 05:21:29.089   Launched primary emission photon packets: 98.2%
+11/05/2020 05:21:34.577   Launched primary emission photon packets: 98.9%
+11/05/2020 05:21:40.969   Launched primary emission photon packets: 99.7%
+11/05/2020 05:21:45.773 - Finished primary emission in 508 s (8m 28s).
+11/05/2020 05:21:45.773   Starting the dust self-absorption phase...
+11/05/2020 05:21:45.774   Starting dust self-absorption iteration 1...
+11/05/2020 05:22:34.207   Emitting from 96027 out of 97427 spatial cells
+11/05/2020 05:22:34.207   Launching 1e7 dust self-absorption iteration 1 photon packets
+11/05/2020 05:22:39.252   Launched dust self-absorption iteration 1 photon packets: 1.8%
+11/05/2020 05:22:44.509   Launched dust self-absorption iteration 1 photon packets: 3.8%
+11/05/2020 05:22:49.724   Launched dust self-absorption iteration 1 photon packets: 5.7%
+11/05/2020 05:22:54.839   Launched dust self-absorption iteration 1 photon packets: 7.8%
+11/05/2020 05:23:00.324   Launched dust self-absorption iteration 1 photon packets: 9.9%
+11/05/2020 05:23:05.692   Launched dust self-absorption iteration 1 photon packets: 12.0%
+11/05/2020 05:23:11.147   Launched dust self-absorption iteration 1 photon packets: 14.4%
+11/05/2020 05:23:16.324   Launched dust self-absorption iteration 1 photon packets: 16.6%
+11/05/2020 05:23:21.483   Launched dust self-absorption iteration 1 photon packets: 18.8%
+11/05/2020 05:23:26.660   Launched dust self-absorption iteration 1 photon packets: 20.9%
+11/05/2020 05:23:31.838   Launched dust self-absorption iteration 1 photon packets: 23.1%
+11/05/2020 05:23:37.013   Launched dust self-absorption iteration 1 photon packets: 24.9%
+11/05/2020 05:23:42.139   Launched dust self-absorption iteration 1 photon packets: 27.1%
+11/05/2020 05:23:47.275   Launched dust self-absorption iteration 1 photon packets: 29.1%
+11/05/2020 05:23:52.632   Launched dust self-absorption iteration 1 photon packets: 31.3%
+11/05/2020 05:23:57.721   Launched dust self-absorption iteration 1 photon packets: 33.5%
+11/05/2020 05:24:02.785   Launched dust self-absorption iteration 1 photon packets: 35.3%
+11/05/2020 05:24:07.831   Launched dust self-absorption iteration 1 photon packets: 37.4%
+11/05/2020 05:24:12.931   Launched dust self-absorption iteration 1 photon packets: 39.3%
+11/05/2020 05:24:17.948   Launched dust self-absorption iteration 1 photon packets: 41.3%
+11/05/2020 05:24:23.153   Launched dust self-absorption iteration 1 photon packets: 43.4%
+11/05/2020 05:24:28.197   Launched dust self-absorption iteration 1 photon packets: 45.4%
+11/05/2020 05:24:33.905   Launched dust self-absorption iteration 1 photon packets: 47.7%
+11/05/2020 05:24:39.391   Launched dust self-absorption iteration 1 photon packets: 49.9%
+11/05/2020 05:24:44.570   Launched dust self-absorption iteration 1 photon packets: 52.1%
+11/05/2020 05:24:49.635   Launched dust self-absorption iteration 1 photon packets: 53.9%
+11/05/2020 05:24:54.843   Launched dust self-absorption iteration 1 photon packets: 55.9%
+11/05/2020 05:25:00.386   Launched dust self-absorption iteration 1 photon packets: 57.9%
+11/05/2020 05:25:05.722   Launched dust self-absorption iteration 1 photon packets: 59.9%
+11/05/2020 05:25:10.754   Launched dust self-absorption iteration 1 photon packets: 61.8%
+11/05/2020 05:25:16.012   Launched dust self-absorption iteration 1 photon packets: 64.0%
+11/05/2020 05:25:21.030   Launched dust self-absorption iteration 1 photon packets: 66.0%
+11/05/2020 05:25:26.168   Launched dust self-absorption iteration 1 photon packets: 68.0%
+11/05/2020 05:25:31.639   Launched dust self-absorption iteration 1 photon packets: 70.1%
+11/05/2020 05:25:36.695   Launched dust self-absorption iteration 1 photon packets: 72.1%
+11/05/2020 05:25:41.741   Launched dust self-absorption iteration 1 photon packets: 74.2%
+11/05/2020 05:25:46.829   Launched dust self-absorption iteration 1 photon packets: 76.4%
+11/05/2020 05:25:51.871   Launched dust self-absorption iteration 1 photon packets: 78.5%
+11/05/2020 05:25:57.137   Launched dust self-absorption iteration 1 photon packets: 80.7%
+11/05/2020 05:26:02.390   Launched dust self-absorption iteration 1 photon packets: 83.0%
+11/05/2020 05:26:07.688   Launched dust self-absorption iteration 1 photon packets: 85.3%
+11/05/2020 05:26:12.952   Launched dust self-absorption iteration 1 photon packets: 87.5%
+11/05/2020 05:26:18.406   Launched dust self-absorption iteration 1 photon packets: 89.7%
+11/05/2020 05:26:23.432   Launched dust self-absorption iteration 1 photon packets: 91.8%
+11/05/2020 05:26:28.539   Launched dust self-absorption iteration 1 photon packets: 93.9%
+11/05/2020 05:26:33.764   Launched dust self-absorption iteration 1 photon packets: 96.0%
+11/05/2020 05:26:38.988   Launched dust self-absorption iteration 1 photon packets: 97.8%
+11/05/2020 05:26:44.399   Launched dust self-absorption iteration 1 photon packets: 98.9%
+11/05/2020 05:26:49.842   Launched dust self-absorption iteration 1 photon packets: 99.7%
+11/05/2020 05:26:51.947 - Finished dust self-absorption iteration 1 in 306 s (5m 6s).
+11/05/2020 05:30:13.663   The total dust-absorbed primary luminosity is 1.38304e+11 Lsun
+11/05/2020 05:30:13.663   The total dust-absorbed dust luminosity in iteration 1 is 7.9881e+10 Lsun
+11/05/2020 05:30:13.663   --> absorbed dust luminosity is 57.76% of absorbed stellar luminosity (convergence criterion is 9.00%)
+11/05/2020 05:30:13.663   Convergence not yet reached after 1 iterations
+11/05/2020 05:30:13.663   Starting dust self-absorption iteration 2...
+11/05/2020 05:31:02.103   Emitting from 96027 out of 97427 spatial cells
+11/05/2020 05:31:02.103   Launching 1e7 dust self-absorption iteration 2 photon packets
+11/05/2020 05:31:07.125   Launched dust self-absorption iteration 2 photon packets: 1.8%
+11/05/2020 05:31:12.321   Launched dust self-absorption iteration 2 photon packets: 3.7%
+11/05/2020 05:31:17.539   Launched dust self-absorption iteration 2 photon packets: 5.7%
+11/05/2020 05:31:23.000   Launched dust self-absorption iteration 2 photon packets: 7.9%
+11/05/2020 05:31:28.656   Launched dust self-absorption iteration 2 photon packets: 10.1%
+11/05/2020 05:31:34.160   Launched dust self-absorption iteration 2 photon packets: 12.2%
+11/05/2020 05:31:39.202   Launched dust self-absorption iteration 2 photon packets: 14.4%
+11/05/2020 05:31:44.493   Launched dust self-absorption iteration 2 photon packets: 16.7%
+11/05/2020 05:31:49.712   Launched dust self-absorption iteration 2 photon packets: 18.9%
+11/05/2020 05:31:54.905   Launched dust self-absorption iteration 2 photon packets: 21.1%
+11/05/2020 05:32:00.073   Launched dust self-absorption iteration 2 photon packets: 23.2%
+11/05/2020 05:32:05.484   Launched dust self-absorption iteration 2 photon packets: 25.2%
+11/05/2020 05:32:10.714   Launched dust self-absorption iteration 2 photon packets: 27.3%
+11/05/2020 05:32:16.033   Launched dust self-absorption iteration 2 photon packets: 29.5%
+11/05/2020 05:32:21.294   Launched dust self-absorption iteration 2 photon packets: 31.6%
+11/05/2020 05:32:26.963   Launched dust self-absorption iteration 2 photon packets: 33.9%
+11/05/2020 05:32:32.012   Launched dust self-absorption iteration 2 photon packets: 35.9%
+11/05/2020 05:32:37.239   Launched dust self-absorption iteration 2 photon packets: 37.9%
+11/05/2020 05:32:42.252   Launched dust self-absorption iteration 2 photon packets: 40.0%
+11/05/2020 05:32:47.621   Launched dust self-absorption iteration 2 photon packets: 42.0%
+11/05/2020 05:32:53.065   Launched dust self-absorption iteration 2 photon packets: 44.2%
+11/05/2020 05:32:58.493   Launched dust self-absorption iteration 2 photon packets: 46.4%
+11/05/2020 05:33:03.635   Launched dust self-absorption iteration 2 photon packets: 48.5%
+11/05/2020 05:33:09.120   Launched dust self-absorption iteration 2 photon packets: 50.7%
+11/05/2020 05:33:14.130   Launched dust self-absorption iteration 2 photon packets: 52.6%
+11/05/2020 05:33:19.376   Launched dust self-absorption iteration 2 photon packets: 54.5%
+11/05/2020 05:33:24.679   Launched dust self-absorption iteration 2 photon packets: 56.4%
+11/05/2020 05:33:29.729   Launched dust self-absorption iteration 2 photon packets: 58.3%
+11/05/2020 05:33:34.820   Launched dust self-absorption iteration 2 photon packets: 60.2%
+11/05/2020 05:33:40.104   Launched dust self-absorption iteration 2 photon packets: 62.2%
+11/05/2020 05:33:45.359   Launched dust self-absorption iteration 2 photon packets: 64.4%
+11/05/2020 05:33:50.404   Launched dust self-absorption iteration 2 photon packets: 66.4%
+11/05/2020 05:33:55.429   Launched dust self-absorption iteration 2 photon packets: 68.4%
+11/05/2020 05:34:00.473   Launched dust self-absorption iteration 2 photon packets: 70.4%
+11/05/2020 05:34:05.480   Launched dust self-absorption iteration 2 photon packets: 72.5%
+11/05/2020 05:34:10.576   Launched dust self-absorption iteration 2 photon packets: 74.5%
+11/05/2020 05:34:16.286   Launched dust self-absorption iteration 2 photon packets: 76.7%
+11/05/2020 05:34:21.445   Launched dust self-absorption iteration 2 photon packets: 79.0%
+11/05/2020 05:34:26.824   Launched dust self-absorption iteration 2 photon packets: 81.4%
+11/05/2020 05:34:31.829   Launched dust self-absorption iteration 2 photon packets: 83.6%
+11/05/2020 05:34:36.884   Launched dust self-absorption iteration 2 photon packets: 85.8%
+11/05/2020 05:34:41.942   Launched dust self-absorption iteration 2 photon packets: 87.8%
+11/05/2020 05:34:47.245   Launched dust self-absorption iteration 2 photon packets: 90.0%
+11/05/2020 05:34:52.249   Launched dust self-absorption iteration 2 photon packets: 92.1%
+11/05/2020 05:34:57.302   Launched dust self-absorption iteration 2 photon packets: 94.2%
+11/05/2020 05:35:02.362   Launched dust self-absorption iteration 2 photon packets: 96.3%
+11/05/2020 05:35:07.775   Launched dust self-absorption iteration 2 photon packets: 97.8%
+11/05/2020 05:35:13.038   Launched dust self-absorption iteration 2 photon packets: 99.1%
+11/05/2020 05:35:18.535   Launched dust self-absorption iteration 2 photon packets: 99.9%
+11/05/2020 05:35:19.345 - Finished dust self-absorption iteration 2 in 306 s (5m 6s).
+11/05/2020 05:38:40.359   The total dust-absorbed primary luminosity is 1.38304e+11 Lsun
+11/05/2020 05:38:40.359   The total dust-absorbed dust luminosity in iteration 2 is 1.3912e+11 Lsun
+11/05/2020 05:38:40.359   --> absorbed dust luminosity changed by 42.58% compared to previous iteration (convergence criterion is 3.00%)
+11/05/2020 05:38:40.359   Convergence not yet reached after 2 iterations
+11/05/2020 05:38:40.359   Starting dust self-absorption iteration 3...
+11/05/2020 05:39:29.174   Emitting from 96027 out of 97427 spatial cells
+11/05/2020 05:39:29.174   Launching 1e7 dust self-absorption iteration 3 photon packets
+11/05/2020 05:39:34.348   Launched dust self-absorption iteration 3 photon packets: 1.8%
+11/05/2020 05:39:39.499   Launched dust self-absorption iteration 3 photon packets: 3.7%
+11/05/2020 05:39:44.742   Launched dust self-absorption iteration 3 photon packets: 5.8%
+11/05/2020 05:39:50.079   Launched dust self-absorption iteration 3 photon packets: 7.9%
+11/05/2020 05:39:55.585   Launched dust self-absorption iteration 3 photon packets: 10.1%
+11/05/2020 05:40:00.932   Launched dust self-absorption iteration 3 photon packets: 12.2%
+11/05/2020 05:40:06.362   Launched dust self-absorption iteration 3 photon packets: 14.4%
+11/05/2020 05:40:11.544   Launched dust self-absorption iteration 3 photon packets: 16.7%
+11/05/2020 05:40:16.716   Launched dust self-absorption iteration 3 photon packets: 18.9%
+11/05/2020 05:40:21.812   Launched dust self-absorption iteration 3 photon packets: 21.0%
+11/05/2020 05:40:27.054   Launched dust self-absorption iteration 3 photon packets: 23.1%
+11/05/2020 05:40:32.109   Launched dust self-absorption iteration 3 photon packets: 25.1%
+11/05/2020 05:40:37.210   Launched dust self-absorption iteration 3 photon packets: 27.0%
+11/05/2020 05:40:42.561   Launched dust self-absorption iteration 3 photon packets: 29.2%
+11/05/2020 05:40:47.591   Launched dust self-absorption iteration 3 photon packets: 31.3%
+11/05/2020 05:40:52.804   Launched dust self-absorption iteration 3 photon packets: 33.4%
+11/05/2020 05:40:57.878   Launched dust self-absorption iteration 3 photon packets: 35.5%
+11/05/2020 05:41:02.987   Launched dust self-absorption iteration 3 photon packets: 37.5%
+11/05/2020 05:41:08.017   Launched dust self-absorption iteration 3 photon packets: 39.5%
+11/05/2020 05:41:13.302   Launched dust self-absorption iteration 3 photon packets: 41.5%
+11/05/2020 05:41:18.535   Launched dust self-absorption iteration 3 photon packets: 43.7%
+11/05/2020 05:41:23.778   Launched dust self-absorption iteration 3 photon packets: 45.8%
+11/05/2020 05:41:29.034   Launched dust self-absorption iteration 3 photon packets: 47.9%
+11/05/2020 05:41:34.320   Launched dust self-absorption iteration 3 photon packets: 49.9%
+11/05/2020 05:41:39.480   Launched dust self-absorption iteration 3 photon packets: 51.9%
+11/05/2020 05:41:44.738   Launched dust self-absorption iteration 3 photon packets: 53.7%
+11/05/2020 05:41:49.792   Launched dust self-absorption iteration 3 photon packets: 55.6%
+11/05/2020 05:41:54.860   Launched dust self-absorption iteration 3 photon packets: 57.4%
+11/05/2020 05:41:59.924   Launched dust self-absorption iteration 3 photon packets: 59.3%
+11/05/2020 05:42:05.310   Launched dust self-absorption iteration 3 photon packets: 61.5%
+11/05/2020 05:42:10.749   Launched dust self-absorption iteration 3 photon packets: 63.6%
+11/05/2020 05:42:16.018   Launched dust self-absorption iteration 3 photon packets: 65.6%
+11/05/2020 05:42:21.177   Launched dust self-absorption iteration 3 photon packets: 67.7%
+11/05/2020 05:42:26.531   Launched dust self-absorption iteration 3 photon packets: 69.8%
+11/05/2020 05:42:31.768   Launched dust self-absorption iteration 3 photon packets: 71.9%
+11/05/2020 05:42:37.178   Launched dust self-absorption iteration 3 photon packets: 74.0%
+11/05/2020 05:42:42.365   Launched dust self-absorption iteration 3 photon packets: 76.3%
+11/05/2020 05:42:47.429   Launched dust self-absorption iteration 3 photon packets: 78.6%
+11/05/2020 05:42:52.499   Launched dust self-absorption iteration 3 photon packets: 80.8%
+11/05/2020 05:42:57.587   Launched dust self-absorption iteration 3 photon packets: 83.1%
+11/05/2020 05:43:02.833   Launched dust self-absorption iteration 3 photon packets: 85.2%
+11/05/2020 05:43:08.352   Launched dust self-absorption iteration 3 photon packets: 87.5%
+11/05/2020 05:43:13.610   Launched dust self-absorption iteration 3 photon packets: 89.7%
+11/05/2020 05:43:18.637   Launched dust self-absorption iteration 3 photon packets: 91.8%
+11/05/2020 05:43:23.788   Launched dust self-absorption iteration 3 photon packets: 94.0%
+11/05/2020 05:43:29.048   Launched dust self-absorption iteration 3 photon packets: 96.1%
+11/05/2020 05:43:34.350   Launched dust self-absorption iteration 3 photon packets: 97.8%
+11/05/2020 05:43:39.507   Launched dust self-absorption iteration 3 photon packets: 98.8%
+11/05/2020 05:43:45.034   Launched dust self-absorption iteration 3 photon packets: 99.6%
+11/05/2020 05:43:47.886 - Finished dust self-absorption iteration 3 in 308 s (5m 8s).
+11/05/2020 05:47:08.996   The total dust-absorbed primary luminosity is 1.38304e+11 Lsun
+11/05/2020 05:47:08.996   The total dust-absorbed dust luminosity in iteration 3 is 1.86632e+11 Lsun
+11/05/2020 05:47:08.996   --> absorbed dust luminosity changed by 25.46% compared to previous iteration (convergence criterion is 3.00%)
+11/05/2020 05:47:08.996   Convergence not yet reached after 3 iterations
+11/05/2020 05:47:08.996   Starting dust self-absorption iteration 4...
+11/05/2020 05:47:57.432   Emitting from 96027 out of 97427 spatial cells
+11/05/2020 05:47:57.432   Launching 1e7 dust self-absorption iteration 4 photon packets
+11/05/2020 05:48:02.472   Launched dust self-absorption iteration 4 photon packets: 1.8%
+11/05/2020 05:48:07.804   Launched dust self-absorption iteration 4 photon packets: 3.7%
+11/05/2020 05:48:12.987   Launched dust self-absorption iteration 4 photon packets: 5.8%
+11/05/2020 05:48:18.371   Launched dust self-absorption iteration 4 photon packets: 7.9%
+11/05/2020 05:48:23.721   Launched dust self-absorption iteration 4 photon packets: 10.0%
+11/05/2020 05:48:28.795   Launched dust self-absorption iteration 4 photon packets: 12.1%
+11/05/2020 05:48:33.960   Launched dust self-absorption iteration 4 photon packets: 14.2%
+11/05/2020 05:48:39.005   Launched dust self-absorption iteration 4 photon packets: 16.3%
+11/05/2020 05:48:44.205   Launched dust self-absorption iteration 4 photon packets: 18.5%
+11/05/2020 05:48:49.222   Launched dust self-absorption iteration 4 photon packets: 20.6%
+11/05/2020 05:48:54.519   Launched dust self-absorption iteration 4 photon packets: 22.8%
+11/05/2020 05:49:00.232   Launched dust self-absorption iteration 4 photon packets: 24.9%
+11/05/2020 05:49:05.422   Launched dust self-absorption iteration 4 photon packets: 27.1%
+11/05/2020 05:49:10.639   Launched dust self-absorption iteration 4 photon packets: 29.1%
+11/05/2020 05:49:15.917   Launched dust self-absorption iteration 4 photon packets: 31.3%
+11/05/2020 05:49:21.117   Launched dust self-absorption iteration 4 photon packets: 33.4%
+11/05/2020 05:49:26.680   Launched dust self-absorption iteration 4 photon packets: 35.5%
+11/05/2020 05:49:31.700   Launched dust self-absorption iteration 4 photon packets: 37.7%
+11/05/2020 05:49:36.784   Launched dust self-absorption iteration 4 photon packets: 39.7%
+11/05/2020 05:49:42.078   Launched dust self-absorption iteration 4 photon packets: 41.7%
+11/05/2020 05:49:47.208   Launched dust self-absorption iteration 4 photon packets: 43.8%
+11/05/2020 05:49:52.698   Launched dust self-absorption iteration 4 photon packets: 46.0%
+11/05/2020 05:49:57.896   Launched dust self-absorption iteration 4 photon packets: 48.1%
+11/05/2020 05:50:03.333   Launched dust self-absorption iteration 4 photon packets: 50.2%
+11/05/2020 05:50:08.446   Launched dust self-absorption iteration 4 photon packets: 52.1%
+11/05/2020 05:50:13.706   Launched dust self-absorption iteration 4 photon packets: 54.0%
+11/05/2020 05:50:19.238   Launched dust self-absorption iteration 4 photon packets: 55.8%
+11/05/2020 05:50:24.710   Launched dust self-absorption iteration 4 photon packets: 57.8%
+11/05/2020 05:50:29.837   Launched dust self-absorption iteration 4 photon packets: 60.0%
+11/05/2020 05:50:34.841   Launched dust self-absorption iteration 4 photon packets: 61.9%
+11/05/2020 05:50:39.990   Launched dust self-absorption iteration 4 photon packets: 63.8%
+11/05/2020 05:50:45.036   Launched dust self-absorption iteration 4 photon packets: 65.8%
+11/05/2020 05:50:50.045   Launched dust self-absorption iteration 4 photon packets: 67.9%
+11/05/2020 05:50:55.060   Launched dust self-absorption iteration 4 photon packets: 69.9%
+11/05/2020 05:51:00.216   Launched dust self-absorption iteration 4 photon packets: 71.9%
+11/05/2020 05:51:05.216   Launched dust self-absorption iteration 4 photon packets: 74.0%
+11/05/2020 05:51:10.310   Launched dust self-absorption iteration 4 photon packets: 76.2%
+11/05/2020 05:51:15.512   Launched dust self-absorption iteration 4 photon packets: 78.5%
+11/05/2020 05:51:20.642   Launched dust self-absorption iteration 4 photon packets: 80.7%
+11/05/2020 05:51:26.126   Launched dust self-absorption iteration 4 photon packets: 83.1%
+11/05/2020 05:51:31.228   Launched dust self-absorption iteration 4 photon packets: 85.2%
+11/05/2020 05:51:36.478   Launched dust self-absorption iteration 4 photon packets: 87.4%
+11/05/2020 05:51:41.717   Launched dust self-absorption iteration 4 photon packets: 89.6%
+11/05/2020 05:51:46.793   Launched dust self-absorption iteration 4 photon packets: 91.7%
+11/05/2020 05:51:52.185   Launched dust self-absorption iteration 4 photon packets: 94.0%
+11/05/2020 05:51:57.347   Launched dust self-absorption iteration 4 photon packets: 96.1%
+11/05/2020 05:52:02.359   Launched dust self-absorption iteration 4 photon packets: 97.5%
+11/05/2020 05:52:07.595   Launched dust self-absorption iteration 4 photon packets: 98.4%
+11/05/2020 05:52:13.212   Launched dust self-absorption iteration 4 photon packets: 99.2%
+11/05/2020 05:52:18.701   Launched dust self-absorption iteration 4 photon packets: 100.0%
+11/05/2020 05:52:18.869 - Finished dust self-absorption iteration 4 in 310 s (5m 10s).
+11/05/2020 05:55:39.951   The total dust-absorbed primary luminosity is 1.38304e+11 Lsun
+11/05/2020 05:55:39.951   The total dust-absorbed dust luminosity in iteration 4 is 2.26349e+11 Lsun
+11/05/2020 05:55:39.951   --> absorbed dust luminosity changed by 17.55% compared to previous iteration (convergence criterion is 3.00%)
+11/05/2020 05:55:39.951   Convergence not yet reached after 4 iterations
+11/05/2020 05:55:39.951   Starting dust self-absorption iteration 5...
+11/05/2020 05:56:28.303   Emitting from 96027 out of 97427 spatial cells
+11/05/2020 05:56:28.303   Launching 1e7 dust self-absorption iteration 5 photon packets
+11/05/2020 05:56:33.308   Launched dust self-absorption iteration 5 photon packets: 1.8%
+11/05/2020 05:56:38.652   Launched dust self-absorption iteration 5 photon packets: 3.7%
+11/05/2020 05:56:43.880   Launched dust self-absorption iteration 5 photon packets: 5.8%
+11/05/2020 05:56:49.286   Launched dust self-absorption iteration 5 photon packets: 7.9%
+11/05/2020 05:56:54.327   Launched dust self-absorption iteration 5 photon packets: 10.0%
+11/05/2020 05:56:59.359   Launched dust self-absorption iteration 5 photon packets: 11.9%
+11/05/2020 05:57:04.470   Launched dust self-absorption iteration 5 photon packets: 14.0%
+11/05/2020 05:57:09.812   Launched dust self-absorption iteration 5 photon packets: 16.3%
+11/05/2020 05:57:14.966   Launched dust self-absorption iteration 5 photon packets: 18.5%
+11/05/2020 05:57:20.054   Launched dust self-absorption iteration 5 photon packets: 20.6%
+11/05/2020 05:57:25.294   Launched dust self-absorption iteration 5 photon packets: 22.8%
+11/05/2020 05:57:30.384   Launched dust self-absorption iteration 5 photon packets: 24.9%
+11/05/2020 05:57:35.716   Launched dust self-absorption iteration 5 photon packets: 26.9%
+11/05/2020 05:57:41.019   Launched dust self-absorption iteration 5 photon packets: 29.0%
+11/05/2020 05:57:46.079   Launched dust self-absorption iteration 5 photon packets: 31.1%
+11/05/2020 05:57:51.604   Launched dust self-absorption iteration 5 photon packets: 33.2%
+11/05/2020 05:57:56.700   Launched dust self-absorption iteration 5 photon packets: 35.3%
+11/05/2020 05:58:01.767   Launched dust self-absorption iteration 5 photon packets: 37.4%
+11/05/2020 05:58:07.001   Launched dust self-absorption iteration 5 photon packets: 39.5%
+11/05/2020 05:58:12.151   Launched dust self-absorption iteration 5 photon packets: 41.6%
+11/05/2020 05:58:17.211   Launched dust self-absorption iteration 5 photon packets: 43.6%
+11/05/2020 05:58:22.519   Launched dust self-absorption iteration 5 photon packets: 45.7%
+11/05/2020 05:58:27.683   Launched dust self-absorption iteration 5 photon packets: 47.7%
+11/05/2020 05:58:32.689   Launched dust self-absorption iteration 5 photon packets: 49.6%
+11/05/2020 05:58:37.957   Launched dust self-absorption iteration 5 photon packets: 51.6%
+11/05/2020 05:58:43.054   Launched dust self-absorption iteration 5 photon packets: 53.5%
+11/05/2020 05:58:48.077   Launched dust self-absorption iteration 5 photon packets: 55.2%
+11/05/2020 05:58:53.428   Launched dust self-absorption iteration 5 photon packets: 57.1%
+11/05/2020 05:58:58.621   Launched dust self-absorption iteration 5 photon packets: 59.2%
+11/05/2020 05:59:03.683   Launched dust self-absorption iteration 5 photon packets: 61.2%
+11/05/2020 05:59:08.732   Launched dust self-absorption iteration 5 photon packets: 63.2%
+11/05/2020 05:59:13.884   Launched dust self-absorption iteration 5 photon packets: 65.0%
+11/05/2020 05:59:19.094   Launched dust self-absorption iteration 5 photon packets: 67.0%
+11/05/2020 05:59:24.293   Launched dust self-absorption iteration 5 photon packets: 69.1%
+11/05/2020 05:59:29.658   Launched dust self-absorption iteration 5 photon packets: 71.2%
+11/05/2020 05:59:34.969   Launched dust self-absorption iteration 5 photon packets: 73.3%
+11/05/2020 05:59:40.267   Launched dust self-absorption iteration 5 photon packets: 75.6%
+11/05/2020 05:59:45.364   Launched dust self-absorption iteration 5 photon packets: 77.9%
+11/05/2020 05:59:50.712   Launched dust self-absorption iteration 5 photon packets: 80.2%
+11/05/2020 05:59:56.090   Launched dust self-absorption iteration 5 photon packets: 82.6%
+11/05/2020 06:00:01.291   Launched dust self-absorption iteration 5 photon packets: 85.0%
+11/05/2020 06:00:06.299   Launched dust self-absorption iteration 5 photon packets: 87.0%
+11/05/2020 06:00:11.531   Launched dust self-absorption iteration 5 photon packets: 89.1%
+11/05/2020 06:00:16.916   Launched dust self-absorption iteration 5 photon packets: 91.4%
+11/05/2020 06:00:22.133   Launched dust self-absorption iteration 5 photon packets: 93.6%
+11/05/2020 06:00:27.431   Launched dust self-absorption iteration 5 photon packets: 95.8%
+11/05/2020 06:00:32.794   Launched dust self-absorption iteration 5 photon packets: 97.3%
+11/05/2020 06:00:38.226   Launched dust self-absorption iteration 5 photon packets: 98.4%
+11/05/2020 06:00:43.841   Launched dust self-absorption iteration 5 photon packets: 99.2%
+11/05/2020 06:00:49.341   Launched dust self-absorption iteration 5 photon packets: 100.0%
+11/05/2020 06:00:49.509 - Finished dust self-absorption iteration 5 in 310 s (5m 10s).
+11/05/2020 06:04:10.641   The total dust-absorbed primary luminosity is 1.38304e+11 Lsun
+11/05/2020 06:04:10.641   The total dust-absorbed dust luminosity in iteration 5 is 2.59592e+11 Lsun
+11/05/2020 06:04:10.641   --> absorbed dust luminosity changed by 12.81% compared to previous iteration (convergence criterion is 3.00%)
+11/05/2020 06:04:10.641   Convergence not yet reached after 5 iterations
+11/05/2020 06:04:10.641   Starting dust self-absorption iteration 6...
+11/05/2020 06:04:59.181   Emitting from 96027 out of 97427 spatial cells
+11/05/2020 06:04:59.182   Launching 1e7 dust self-absorption iteration 6 photon packets
+11/05/2020 06:05:04.307   Launched dust self-absorption iteration 6 photon packets: 1.8%
+11/05/2020 06:05:09.579   Launched dust self-absorption iteration 6 photon packets: 3.7%
+11/05/2020 06:05:14.600   Launched dust self-absorption iteration 6 photon packets: 5.8%
+11/05/2020 06:05:19.736   Launched dust self-absorption iteration 6 photon packets: 7.8%
+11/05/2020 06:05:25.035   Launched dust self-absorption iteration 6 photon packets: 9.8%
+11/05/2020 06:05:30.073   Launched dust self-absorption iteration 6 photon packets: 11.8%
+11/05/2020 06:05:35.074   Launched dust self-absorption iteration 6 photon packets: 13.9%
+11/05/2020 06:05:40.172   Launched dust self-absorption iteration 6 photon packets: 16.0%
+11/05/2020 06:05:45.368   Launched dust self-absorption iteration 6 photon packets: 18.3%
+11/05/2020 06:05:50.454   Launched dust self-absorption iteration 6 photon packets: 20.4%
+11/05/2020 06:05:55.748   Launched dust self-absorption iteration 6 photon packets: 22.6%
+11/05/2020 06:06:00.764   Launched dust self-absorption iteration 6 photon packets: 24.6%
+11/05/2020 06:06:05.906   Launched dust self-absorption iteration 6 photon packets: 26.5%
+11/05/2020 06:06:11.135   Launched dust self-absorption iteration 6 photon packets: 28.6%
+11/05/2020 06:06:16.438   Launched dust self-absorption iteration 6 photon packets: 30.7%
+11/05/2020 06:06:21.622   Launched dust self-absorption iteration 6 photon packets: 32.8%
+11/05/2020 06:06:26.719   Launched dust self-absorption iteration 6 photon packets: 34.9%
+11/05/2020 06:06:31.749   Launched dust self-absorption iteration 6 photon packets: 36.9%
+11/05/2020 06:06:36.820   Launched dust self-absorption iteration 6 photon packets: 39.0%
+11/05/2020 06:06:42.034   Launched dust self-absorption iteration 6 photon packets: 41.1%
+11/05/2020 06:06:47.246   Launched dust self-absorption iteration 6 photon packets: 43.2%
+11/05/2020 06:06:52.286   Launched dust self-absorption iteration 6 photon packets: 45.3%
+11/05/2020 06:06:57.470   Launched dust self-absorption iteration 6 photon packets: 47.3%
+11/05/2020 06:07:02.951   Launched dust self-absorption iteration 6 photon packets: 49.4%
+11/05/2020 06:07:08.248   Launched dust self-absorption iteration 6 photon packets: 51.3%
+11/05/2020 06:07:13.776   Launched dust self-absorption iteration 6 photon packets: 53.3%
+11/05/2020 06:07:19.064   Launched dust self-absorption iteration 6 photon packets: 55.2%
+11/05/2020 06:07:24.175   Launched dust self-absorption iteration 6 photon packets: 57.0%
+11/05/2020 06:07:29.568   Launched dust self-absorption iteration 6 photon packets: 59.2%
+11/05/2020 06:07:34.603   Launched dust self-absorption iteration 6 photon packets: 61.1%
+11/05/2020 06:07:39.758   Launched dust self-absorption iteration 6 photon packets: 63.2%
+11/05/2020 06:07:44.806   Launched dust self-absorption iteration 6 photon packets: 65.1%
+11/05/2020 06:07:50.263   Launched dust self-absorption iteration 6 photon packets: 67.3%
+11/05/2020 06:07:55.441   Launched dust self-absorption iteration 6 photon packets: 69.4%
+11/05/2020 06:08:00.676   Launched dust self-absorption iteration 6 photon packets: 71.4%
+11/05/2020 06:08:05.809   Launched dust self-absorption iteration 6 photon packets: 73.5%
+11/05/2020 06:08:11.083   Launched dust self-absorption iteration 6 photon packets: 75.8%
+11/05/2020 06:08:16.432   Launched dust self-absorption iteration 6 photon packets: 78.1%
+11/05/2020 06:08:21.529   Launched dust self-absorption iteration 6 photon packets: 80.4%
+11/05/2020 06:08:27.041   Launched dust self-absorption iteration 6 photon packets: 82.8%
+11/05/2020 06:08:32.444   Launched dust self-absorption iteration 6 photon packets: 85.1%
+11/05/2020 06:08:37.718   Launched dust self-absorption iteration 6 photon packets: 87.3%
+11/05/2020 06:08:43.271   Launched dust self-absorption iteration 6 photon packets: 89.6%
+11/05/2020 06:08:48.653   Launched dust self-absorption iteration 6 photon packets: 91.9%
+11/05/2020 06:08:53.842   Launched dust self-absorption iteration 6 photon packets: 94.1%
+11/05/2020 06:08:59.019   Launched dust self-absorption iteration 6 photon packets: 96.2%
+11/05/2020 06:09:04.085   Launched dust self-absorption iteration 6 photon packets: 97.8%
+11/05/2020 06:09:09.155   Launched dust self-absorption iteration 6 photon packets: 98.6%
+11/05/2020 06:09:14.773   Launched dust self-absorption iteration 6 photon packets: 99.4%
+11/05/2020 06:09:19.116 - Finished dust self-absorption iteration 6 in 308 s (5m 8s).
+11/05/2020 06:12:40.122   The total dust-absorbed primary luminosity is 1.38304e+11 Lsun
+11/05/2020 06:12:40.122   The total dust-absorbed dust luminosity in iteration 6 is 2.88047e+11 Lsun
+11/05/2020 06:12:40.122   --> absorbed dust luminosity changed by 9.88% compared to previous iteration (convergence criterion is 3.00%)
+11/05/2020 06:12:40.122   Convergence not yet reached after 6 iterations
+11/05/2020 06:12:40.122   Starting dust self-absorption iteration 7...
+11/05/2020 06:13:28.623   Emitting from 96027 out of 97427 spatial cells
+11/05/2020 06:13:28.624   Launching 1e7 dust self-absorption iteration 7 photon packets
+11/05/2020 06:13:33.815   Launched dust self-absorption iteration 7 photon packets: 1.8%
+11/05/2020 06:13:39.323   Launched dust self-absorption iteration 7 photon packets: 3.7%
+11/05/2020 06:13:44.635   Launched dust self-absorption iteration 7 photon packets: 5.9%
+11/05/2020 06:13:49.711   Launched dust self-absorption iteration 7 photon packets: 7.9%
+11/05/2020 06:13:54.974   Launched dust self-absorption iteration 7 photon packets: 10.0%
+11/05/2020 06:14:00.613   Launched dust self-absorption iteration 7 photon packets: 12.2%
+11/05/2020 06:14:05.797   Launched dust self-absorption iteration 7 photon packets: 14.3%
+11/05/2020 06:14:11.029   Launched dust self-absorption iteration 7 photon packets: 16.6%
+11/05/2020 06:14:16.321   Launched dust self-absorption iteration 7 photon packets: 18.7%
+11/05/2020 06:14:21.641   Launched dust self-absorption iteration 7 photon packets: 20.9%
+11/05/2020 06:14:27.103   Launched dust self-absorption iteration 7 photon packets: 23.1%
+11/05/2020 06:14:32.495   Launched dust self-absorption iteration 7 photon packets: 25.2%
+11/05/2020 06:14:37.846   Launched dust self-absorption iteration 7 photon packets: 27.3%
+11/05/2020 06:14:43.082   Launched dust self-absorption iteration 7 photon packets: 29.4%
+11/05/2020 06:14:48.390   Launched dust self-absorption iteration 7 photon packets: 31.5%
+11/05/2020 06:14:53.677   Launched dust self-absorption iteration 7 photon packets: 33.7%
+11/05/2020 06:14:59.159   Launched dust self-absorption iteration 7 photon packets: 35.8%
+11/05/2020 06:15:04.220   Launched dust self-absorption iteration 7 photon packets: 38.0%
+11/05/2020 06:15:09.428   Launched dust self-absorption iteration 7 photon packets: 40.1%
+11/05/2020 06:15:14.674   Launched dust self-absorption iteration 7 photon packets: 42.3%
+11/05/2020 06:15:19.779   Launched dust self-absorption iteration 7 photon packets: 44.3%
+11/05/2020 06:15:24.999   Launched dust self-absorption iteration 7 photon packets: 46.3%
+11/05/2020 06:15:30.195   Launched dust self-absorption iteration 7 photon packets: 48.4%
+11/05/2020 06:15:35.444   Launched dust self-absorption iteration 7 photon packets: 50.3%
+11/05/2020 06:15:40.480   Launched dust self-absorption iteration 7 photon packets: 52.2%
+11/05/2020 06:15:45.688   Launched dust self-absorption iteration 7 photon packets: 54.0%
+11/05/2020 06:15:50.765   Launched dust self-absorption iteration 7 photon packets: 55.8%
+11/05/2020 06:15:56.307   Launched dust self-absorption iteration 7 photon packets: 57.4%
+11/05/2020 06:16:01.398   Launched dust self-absorption iteration 7 photon packets: 59.0%
+11/05/2020 06:16:06.891   Launched dust self-absorption iteration 7 photon packets: 61.0%
+11/05/2020 06:16:11.998   Launched dust self-absorption iteration 7 photon packets: 63.0%
+11/05/2020 06:16:17.030   Launched dust self-absorption iteration 7 photon packets: 65.1%
+11/05/2020 06:16:22.216   Launched dust self-absorption iteration 7 photon packets: 67.2%
+11/05/2020 06:16:27.290   Launched dust self-absorption iteration 7 photon packets: 69.1%
+11/05/2020 06:16:32.574   Launched dust self-absorption iteration 7 photon packets: 71.2%
+11/05/2020 06:16:37.646   Launched dust self-absorption iteration 7 photon packets: 73.2%
+11/05/2020 06:16:42.787   Launched dust self-absorption iteration 7 photon packets: 75.5%
+11/05/2020 06:16:47.802   Launched dust self-absorption iteration 7 photon packets: 77.7%
+11/05/2020 06:16:52.895   Launched dust self-absorption iteration 7 photon packets: 80.0%
+11/05/2020 06:16:58.066   Launched dust self-absorption iteration 7 photon packets: 82.2%
+11/05/2020 06:17:03.591   Launched dust self-absorption iteration 7 photon packets: 84.6%
+11/05/2020 06:17:09.226   Launched dust self-absorption iteration 7 photon packets: 86.9%
+11/05/2020 06:17:14.326   Launched dust self-absorption iteration 7 photon packets: 89.1%
+11/05/2020 06:17:19.705   Launched dust self-absorption iteration 7 photon packets: 91.4%
+11/05/2020 06:17:24.953   Launched dust self-absorption iteration 7 photon packets: 93.6%
+11/05/2020 06:17:30.188   Launched dust self-absorption iteration 7 photon packets: 95.8%
+11/05/2020 06:17:35.716   Launched dust self-absorption iteration 7 photon packets: 97.3%
+11/05/2020 06:17:41.006   Launched dust self-absorption iteration 7 photon packets: 98.3%
+11/05/2020 06:17:46.018   Launched dust self-absorption iteration 7 photon packets: 99.0%
+11/05/2020 06:17:51.533   Launched dust self-absorption iteration 7 photon packets: 99.8%
+11/05/2020 06:17:52.994 - Finished dust self-absorption iteration 7 in 313 s (5m 13s).
+11/05/2020 06:21:14.224   The total dust-absorbed primary luminosity is 1.38304e+11 Lsun
+11/05/2020 06:21:14.224   The total dust-absorbed dust luminosity in iteration 7 is 3.12568e+11 Lsun
+11/05/2020 06:21:14.225   --> absorbed dust luminosity changed by 7.84% compared to previous iteration (convergence criterion is 3.00%)
+11/05/2020 06:21:14.225   Convergence not yet reached after 7 iterations
+11/05/2020 06:21:14.225   Starting dust self-absorption iteration 8...
+11/05/2020 06:22:02.943   Emitting from 96027 out of 97427 spatial cells
+11/05/2020 06:22:02.943   Launching 1e7 dust self-absorption iteration 8 photon packets
+11/05/2020 06:22:08.025   Launched dust self-absorption iteration 8 photon packets: 1.8%
+11/05/2020 06:22:13.379   Launched dust self-absorption iteration 8 photon packets: 3.7%
+11/05/2020 06:22:18.572   Launched dust self-absorption iteration 8 photon packets: 5.8%
+11/05/2020 06:22:23.999   Launched dust self-absorption iteration 8 photon packets: 7.9%
+11/05/2020 06:22:29.532   Launched dust self-absorption iteration 8 photon packets: 10.1%
+11/05/2020 06:22:34.875   Launched dust self-absorption iteration 8 photon packets: 12.2%
+11/05/2020 06:22:39.966   Launched dust self-absorption iteration 8 photon packets: 14.3%
+11/05/2020 06:22:45.262   Launched dust self-absorption iteration 8 photon packets: 16.6%
+11/05/2020 06:22:50.307   Launched dust self-absorption iteration 8 photon packets: 18.8%
+11/05/2020 06:22:55.516   Launched dust self-absorption iteration 8 photon packets: 20.9%
+11/05/2020 06:23:01.013   Launched dust self-absorption iteration 8 photon packets: 23.1%
+11/05/2020 06:23:06.554   Launched dust self-absorption iteration 8 photon packets: 25.2%
+11/05/2020 06:23:11.673   Launched dust self-absorption iteration 8 photon packets: 27.3%
+11/05/2020 06:23:16.930   Launched dust self-absorption iteration 8 photon packets: 29.4%
+11/05/2020 06:23:22.135   Launched dust self-absorption iteration 8 photon packets: 31.5%
+11/05/2020 06:23:27.219   Launched dust self-absorption iteration 8 photon packets: 33.5%
+11/05/2020 06:23:32.760   Launched dust self-absorption iteration 8 photon packets: 35.7%
+11/05/2020 06:23:37.764   Launched dust self-absorption iteration 8 photon packets: 37.9%
+11/05/2020 06:23:42.844   Launched dust self-absorption iteration 8 photon packets: 39.9%
+11/05/2020 06:23:48.038   Launched dust self-absorption iteration 8 photon packets: 42.0%
+11/05/2020 06:23:53.527   Launched dust self-absorption iteration 8 photon packets: 44.2%
+11/05/2020 06:23:58.835   Launched dust self-absorption iteration 8 photon packets: 46.3%
+11/05/2020 06:24:03.961   Launched dust self-absorption iteration 8 photon packets: 48.2%
+11/05/2020 06:24:09.430   Launched dust self-absorption iteration 8 photon packets: 50.3%
+11/05/2020 06:24:14.643   Launched dust self-absorption iteration 8 photon packets: 52.2%
+11/05/2020 06:24:19.654   Launched dust self-absorption iteration 8 photon packets: 53.9%
+11/05/2020 06:24:25.293   Launched dust self-absorption iteration 8 photon packets: 55.9%
+11/05/2020 06:24:30.862   Launched dust self-absorption iteration 8 photon packets: 58.1%
+11/05/2020 06:24:35.866   Launched dust self-absorption iteration 8 photon packets: 60.1%
+11/05/2020 06:24:41.212   Launched dust self-absorption iteration 8 photon packets: 62.1%
+11/05/2020 06:24:46.739   Launched dust self-absorption iteration 8 photon packets: 64.3%
+11/05/2020 06:24:51.912   Launched dust self-absorption iteration 8 photon packets: 66.4%
+11/05/2020 06:24:56.923   Launched dust self-absorption iteration 8 photon packets: 68.3%
+11/05/2020 06:25:02.239   Launched dust self-absorption iteration 8 photon packets: 70.4%
+11/05/2020 06:25:07.365   Launched dust self-absorption iteration 8 photon packets: 72.4%
+11/05/2020 06:25:12.435   Launched dust self-absorption iteration 8 photon packets: 74.5%
+11/05/2020 06:25:17.637   Launched dust self-absorption iteration 8 photon packets: 76.7%
+11/05/2020 06:25:22.953   Launched dust self-absorption iteration 8 photon packets: 79.1%
+11/05/2020 06:25:28.248   Launched dust self-absorption iteration 8 photon packets: 81.5%
+11/05/2020 06:25:33.529   Launched dust self-absorption iteration 8 photon packets: 83.7%
+11/05/2020 06:25:38.799   Launched dust self-absorption iteration 8 photon packets: 85.9%
+11/05/2020 06:25:43.808   Launched dust self-absorption iteration 8 photon packets: 88.1%
+11/05/2020 06:25:48.896   Launched dust self-absorption iteration 8 photon packets: 90.2%
+11/05/2020 06:25:54.116   Launched dust self-absorption iteration 8 photon packets: 92.4%
+11/05/2020 06:25:59.344   Launched dust self-absorption iteration 8 photon packets: 94.7%
+11/05/2020 06:26:04.529   Launched dust self-absorption iteration 8 photon packets: 96.5%
+11/05/2020 06:26:09.827   Launched dust self-absorption iteration 8 photon packets: 98.0%
+11/05/2020 06:26:14.922   Launched dust self-absorption iteration 8 photon packets: 98.7%
+11/05/2020 06:26:20.464   Launched dust self-absorption iteration 8 photon packets: 99.5%
+11/05/2020 06:26:24.046 - Finished dust self-absorption iteration 8 in 310 s (5m 10s).
+11/05/2020 06:29:45.194   The total dust-absorbed primary luminosity is 1.38304e+11 Lsun
+11/05/2020 06:29:45.194   The total dust-absorbed dust luminosity in iteration 8 is 3.33684e+11 Lsun
+11/05/2020 06:29:45.194   --> absorbed dust luminosity changed by 6.33% compared to previous iteration (convergence criterion is 3.00%)
+11/05/2020 06:29:45.194   Convergence not yet reached after 8 iterations
+11/05/2020 06:29:45.194   Starting dust self-absorption iteration 9...
+11/05/2020 06:30:33.688   Emitting from 96027 out of 97427 spatial cells
+11/05/2020 06:30:33.688   Launching 1e7 dust self-absorption iteration 9 photon packets
+11/05/2020 06:30:38.845   Launched dust self-absorption iteration 9 photon packets: 1.8%
+11/05/2020 06:30:44.071   Launched dust self-absorption iteration 9 photon packets: 3.7%
+11/05/2020 06:30:49.235   Launched dust self-absorption iteration 9 photon packets: 5.8%
+11/05/2020 06:30:54.694   Launched dust self-absorption iteration 9 photon packets: 7.9%
+11/05/2020 06:31:00.212   Launched dust self-absorption iteration 9 photon packets: 10.1%
+11/05/2020 06:31:05.523   Launched dust self-absorption iteration 9 photon packets: 12.2%
+11/05/2020 06:31:10.585   Launched dust self-absorption iteration 9 photon packets: 14.4%
+11/05/2020 06:31:15.830   Launched dust self-absorption iteration 9 photon packets: 16.5%
+11/05/2020 06:31:20.840   Launched dust self-absorption iteration 9 photon packets: 18.7%
+11/05/2020 06:31:25.981   Launched dust self-absorption iteration 9 photon packets: 20.9%
+11/05/2020 06:31:31.148   Launched dust self-absorption iteration 9 photon packets: 23.0%
+11/05/2020 06:31:36.871   Launched dust self-absorption iteration 9 photon packets: 25.1%
+11/05/2020 06:31:41.953   Launched dust self-absorption iteration 9 photon packets: 27.1%
+11/05/2020 06:31:47.181   Launched dust self-absorption iteration 9 photon packets: 29.2%
+11/05/2020 06:31:52.319   Launched dust self-absorption iteration 9 photon packets: 31.3%
+11/05/2020 06:31:57.452   Launched dust self-absorption iteration 9 photon packets: 33.3%
+11/05/2020 06:32:02.725   Launched dust self-absorption iteration 9 photon packets: 35.5%
+11/05/2020 06:32:07.739   Launched dust self-absorption iteration 9 photon packets: 37.6%
+11/05/2020 06:32:12.849   Launched dust self-absorption iteration 9 photon packets: 39.7%
+11/05/2020 06:32:18.154   Launched dust self-absorption iteration 9 photon packets: 41.8%
+11/05/2020 06:32:23.373   Launched dust self-absorption iteration 9 photon packets: 43.9%
+11/05/2020 06:32:28.940   Launched dust self-absorption iteration 9 photon packets: 46.1%
+11/05/2020 06:32:34.027   Launched dust self-absorption iteration 9 photon packets: 48.1%
+11/05/2020 06:32:39.611   Launched dust self-absorption iteration 9 photon packets: 50.1%
+11/05/2020 06:32:44.781   Launched dust self-absorption iteration 9 photon packets: 52.0%
+11/05/2020 06:32:49.784   Launched dust self-absorption iteration 9 photon packets: 53.7%
+11/05/2020 06:32:55.472   Launched dust self-absorption iteration 9 photon packets: 55.7%
+11/05/2020 06:33:00.587   Launched dust self-absorption iteration 9 photon packets: 57.8%
+11/05/2020 06:33:05.588   Launched dust self-absorption iteration 9 photon packets: 59.8%
+11/05/2020 06:33:10.977   Launched dust self-absorption iteration 9 photon packets: 61.8%
+11/05/2020 06:33:16.157   Launched dust self-absorption iteration 9 photon packets: 63.9%
+11/05/2020 06:33:21.528   Launched dust self-absorption iteration 9 photon packets: 66.0%
+11/05/2020 06:33:26.970   Launched dust self-absorption iteration 9 photon packets: 68.1%
+11/05/2020 06:33:32.232   Launched dust self-absorption iteration 9 photon packets: 70.2%
+11/05/2020 06:33:37.290   Launched dust self-absorption iteration 9 photon packets: 72.4%
+11/05/2020 06:33:42.450   Launched dust self-absorption iteration 9 photon packets: 74.3%
+11/05/2020 06:33:47.524   Launched dust self-absorption iteration 9 photon packets: 76.6%
+11/05/2020 06:33:52.789   Launched dust self-absorption iteration 9 photon packets: 79.0%
+11/05/2020 06:33:57.964   Launched dust self-absorption iteration 9 photon packets: 81.3%
+11/05/2020 06:34:03.018   Launched dust self-absorption iteration 9 photon packets: 83.4%
+11/05/2020 06:34:08.249   Launched dust self-absorption iteration 9 photon packets: 85.6%
+11/05/2020 06:34:13.463   Launched dust self-absorption iteration 9 photon packets: 87.7%
+11/05/2020 06:34:18.736   Launched dust self-absorption iteration 9 photon packets: 89.9%
+11/05/2020 06:34:24.287   Launched dust self-absorption iteration 9 photon packets: 92.2%
+11/05/2020 06:34:29.506   Launched dust self-absorption iteration 9 photon packets: 94.5%
+11/05/2020 06:34:34.673   Launched dust self-absorption iteration 9 photon packets: 96.5%
+11/05/2020 06:34:39.699   Launched dust self-absorption iteration 9 photon packets: 98.0%
+11/05/2020 06:34:44.787   Launched dust self-absorption iteration 9 photon packets: 98.8%
+11/05/2020 06:34:50.315   Launched dust self-absorption iteration 9 photon packets: 99.6%
+11/05/2020 06:34:53.178 - Finished dust self-absorption iteration 9 in 308 s (5m 8s).
+11/05/2020 06:38:14.287   The total dust-absorbed primary luminosity is 1.38304e+11 Lsun
+11/05/2020 06:38:14.287   The total dust-absorbed dust luminosity in iteration 9 is 3.52165e+11 Lsun
+11/05/2020 06:38:14.287   --> absorbed dust luminosity changed by 5.25% compared to previous iteration (convergence criterion is 3.00%)
+11/05/2020 06:38:14.287   Convergence not yet reached after 9 iterations
+11/05/2020 06:38:14.287   Starting dust self-absorption iteration 10...
+11/05/2020 06:39:02.649   Emitting from 96027 out of 97427 spatial cells
+11/05/2020 06:39:02.649   Launching 1e7 dust self-absorption iteration 10 photon packets
+11/05/2020 06:39:07.676   Launched dust self-absorption iteration 10 photon packets: 1.8%
+11/05/2020 06:39:13.212   Launched dust self-absorption iteration 10 photon packets: 3.7%
+11/05/2020 06:39:18.432   Launched dust self-absorption iteration 10 photon packets: 5.7%
+11/05/2020 06:39:24.068   Launched dust self-absorption iteration 10 photon packets: 7.9%
+11/05/2020 06:39:29.353   Launched dust self-absorption iteration 10 photon packets: 10.0%
+11/05/2020 06:39:35.064   Launched dust self-absorption iteration 10 photon packets: 12.2%
+11/05/2020 06:39:40.360   Launched dust self-absorption iteration 10 photon packets: 14.4%
+11/05/2020 06:39:45.639   Launched dust self-absorption iteration 10 photon packets: 16.7%
+11/05/2020 06:39:50.892   Launched dust self-absorption iteration 10 photon packets: 18.9%
+11/05/2020 06:39:56.176   Launched dust self-absorption iteration 10 photon packets: 21.1%
+11/05/2020 06:40:01.676   Launched dust self-absorption iteration 10 photon packets: 23.3%
+11/05/2020 06:40:07.323   Launched dust self-absorption iteration 10 photon packets: 25.4%
+11/05/2020 06:40:12.454   Launched dust self-absorption iteration 10 photon packets: 27.6%
+11/05/2020 06:40:18.048   Launched dust self-absorption iteration 10 photon packets: 29.7%
+11/05/2020 06:40:23.149   Launched dust self-absorption iteration 10 photon packets: 31.8%
+11/05/2020 06:40:28.650   Launched dust self-absorption iteration 10 photon packets: 34.0%
+11/05/2020 06:40:33.851   Launched dust self-absorption iteration 10 photon packets: 36.2%
+11/05/2020 06:40:38.866   Launched dust self-absorption iteration 10 photon packets: 38.2%
+11/05/2020 06:40:44.117   Launched dust self-absorption iteration 10 photon packets: 40.4%
+11/05/2020 06:40:49.325   Launched dust self-absorption iteration 10 photon packets: 42.6%
+11/05/2020 06:40:54.377   Launched dust self-absorption iteration 10 photon packets: 44.6%
+11/05/2020 06:40:59.461   Launched dust self-absorption iteration 10 photon packets: 46.5%
+11/05/2020 06:41:04.556   Launched dust self-absorption iteration 10 photon packets: 48.5%
+11/05/2020 06:41:09.823   Launched dust self-absorption iteration 10 photon packets: 50.5%
+11/05/2020 06:41:14.844   Launched dust self-absorption iteration 10 photon packets: 52.2%
+11/05/2020 06:41:20.040   Launched dust self-absorption iteration 10 photon packets: 54.1%
+11/05/2020 06:41:25.053   Launched dust self-absorption iteration 10 photon packets: 55.8%
+11/05/2020 06:41:30.175   Launched dust self-absorption iteration 10 photon packets: 58.0%
+11/05/2020 06:41:35.311   Launched dust self-absorption iteration 10 photon packets: 59.9%
+11/05/2020 06:41:40.423   Launched dust self-absorption iteration 10 photon packets: 61.9%
+11/05/2020 06:41:45.783   Launched dust self-absorption iteration 10 photon packets: 64.0%
+11/05/2020 06:41:51.387   Launched dust self-absorption iteration 10 photon packets: 66.2%
+11/05/2020 06:41:56.759   Launched dust self-absorption iteration 10 photon packets: 68.3%
+11/05/2020 06:42:01.869   Launched dust self-absorption iteration 10 photon packets: 70.4%
+11/05/2020 06:42:07.081   Launched dust self-absorption iteration 10 photon packets: 72.4%
+11/05/2020 06:42:12.609   Launched dust self-absorption iteration 10 photon packets: 74.5%
+11/05/2020 06:42:17.874   Launched dust self-absorption iteration 10 photon packets: 77.0%
+11/05/2020 06:42:23.278   Launched dust self-absorption iteration 10 photon packets: 79.4%
+11/05/2020 06:42:28.332   Launched dust self-absorption iteration 10 photon packets: 81.7%
+11/05/2020 06:42:33.350   Launched dust self-absorption iteration 10 photon packets: 83.9%
+11/05/2020 06:42:38.353   Launched dust self-absorption iteration 10 photon packets: 85.9%
+11/05/2020 06:42:43.498   Launched dust self-absorption iteration 10 photon packets: 88.1%
+11/05/2020 06:42:48.538   Launched dust self-absorption iteration 10 photon packets: 90.3%
+11/05/2020 06:42:53.735   Launched dust self-absorption iteration 10 photon packets: 92.4%
+11/05/2020 06:42:58.756   Launched dust self-absorption iteration 10 photon packets: 94.6%
+11/05/2020 06:43:03.766   Launched dust self-absorption iteration 10 photon packets: 96.4%
+11/05/2020 06:43:08.782   Launched dust self-absorption iteration 10 photon packets: 97.8%
+11/05/2020 06:43:14.043   Launched dust self-absorption iteration 10 photon packets: 98.7%
+11/05/2020 06:43:19.587   Launched dust self-absorption iteration 10 photon packets: 99.5%
+11/05/2020 06:43:23.170 - Finished dust self-absorption iteration 10 in 309 s (5m 9s).
+11/05/2020 06:46:44.297   The total dust-absorbed primary luminosity is 1.38304e+11 Lsun
+11/05/2020 06:46:44.297   The total dust-absorbed dust luminosity in iteration 10 is 3.68568e+11 Lsun
+11/05/2020 06:46:44.297   --> absorbed dust luminosity changed by 4.45% compared to previous iteration (convergence criterion is 3.00%)
+11/05/2020 06:46:44.297   Convergence not yet reached after 10 iterations
+11/05/2020 06:46:44.297 * *** Error: Convergence not yet reached after 10 iterations
+11/05/2020 06:46:44.297 - Finished the dust self-absorption phase in 5099 s (1h 24m 59s).
+11/05/2020 06:46:44.297   Starting secondary emission...
+11/05/2020 06:47:32.642   Emitting from 96027 out of 97427 spatial cells
+11/05/2020 06:47:32.642   Launching 1e7 secondary emission photon packets
+11/05/2020 06:47:37.998   Launched secondary emission photon packets: 1.5%
+11/05/2020 06:47:43.081   Launched secondary emission photon packets: 3.2%
+11/05/2020 06:47:48.505   Launched secondary emission photon packets: 4.9%
+11/05/2020 06:47:53.690   Launched secondary emission photon packets: 6.7%
+11/05/2020 06:47:58.965   Launched secondary emission photon packets: 8.5%
+11/05/2020 06:48:04.456   Launched secondary emission photon packets: 10.2%
+11/05/2020 06:48:09.632   Launched secondary emission photon packets: 11.8%
+11/05/2020 06:48:14.778   Launched secondary emission photon packets: 13.6%
+11/05/2020 06:48:19.812   Launched secondary emission photon packets: 15.5%
+11/05/2020 06:48:24.875   Launched secondary emission photon packets: 17.3%
+11/05/2020 06:48:29.899   Launched secondary emission photon packets: 19.1%
+11/05/2020 06:48:35.122   Launched secondary emission photon packets: 20.9%
+11/05/2020 06:48:40.269   Launched secondary emission photon packets: 22.7%
+11/05/2020 06:48:45.779   Launched secondary emission photon packets: 24.4%
+11/05/2020 06:48:50.991   Launched secondary emission photon packets: 26.1%
+11/05/2020 06:48:56.046   Launched secondary emission photon packets: 27.8%
+11/05/2020 06:49:01.214   Launched secondary emission photon packets: 29.5%
+11/05/2020 06:49:06.340   Launched secondary emission photon packets: 31.4%
+11/05/2020 06:49:11.450   Launched secondary emission photon packets: 33.1%
+11/05/2020 06:49:16.690   Launched secondary emission photon packets: 34.8%
+11/05/2020 06:49:21.834   Launched secondary emission photon packets: 36.6%
+11/05/2020 06:49:27.162   Launched secondary emission photon packets: 38.6%
+11/05/2020 06:49:32.257   Launched secondary emission photon packets: 40.4%
+11/05/2020 06:49:37.266   Launched secondary emission photon packets: 42.2%
+11/05/2020 06:49:42.600   Launched secondary emission photon packets: 44.1%
+11/05/2020 06:49:47.908   Launched secondary emission photon packets: 45.9%
+11/05/2020 06:49:52.945   Launched secondary emission photon packets: 47.6%
+11/05/2020 06:49:58.139   Launched secondary emission photon packets: 49.4%
+11/05/2020 06:50:03.406   Launched secondary emission photon packets: 51.1%
+11/05/2020 06:50:08.783   Launched secondary emission photon packets: 52.8%
+11/05/2020 06:50:14.191   Launched secondary emission photon packets: 54.4%
+11/05/2020 06:50:19.324   Launched secondary emission photon packets: 56.1%
+11/05/2020 06:50:24.365   Launched secondary emission photon packets: 57.8%
+11/05/2020 06:50:29.558   Launched secondary emission photon packets: 59.6%
+11/05/2020 06:50:35.268   Launched secondary emission photon packets: 61.2%
+11/05/2020 06:50:40.478   Launched secondary emission photon packets: 63.1%
+11/05/2020 06:50:45.638   Launched secondary emission photon packets: 64.8%
+11/05/2020 06:50:50.656   Launched secondary emission photon packets: 66.5%
+11/05/2020 06:50:56.133   Launched secondary emission photon packets: 68.2%
+11/05/2020 06:51:01.501   Launched secondary emission photon packets: 70.1%
+11/05/2020 06:51:06.687   Launched secondary emission photon packets: 71.8%
+11/05/2020 06:51:11.890   Launched secondary emission photon packets: 73.6%
+11/05/2020 06:51:17.119   Launched secondary emission photon packets: 75.5%
+11/05/2020 06:51:22.263   Launched secondary emission photon packets: 77.6%
+11/05/2020 06:51:27.438   Launched secondary emission photon packets: 79.6%
+11/05/2020 06:51:32.598   Launched secondary emission photon packets: 81.5%
+11/05/2020 06:51:37.671   Launched secondary emission photon packets: 83.5%
+11/05/2020 06:51:42.990   Launched secondary emission photon packets: 85.2%
+11/05/2020 06:51:48.221   Launched secondary emission photon packets: 87.2%
+11/05/2020 06:51:53.441   Launched secondary emission photon packets: 89.1%
+11/05/2020 06:51:58.767   Launched secondary emission photon packets: 91.1%
+11/05/2020 06:52:03.885   Launched secondary emission photon packets: 93.0%
+11/05/2020 06:52:08.927   Launched secondary emission photon packets: 94.9%
+11/05/2020 06:52:14.307   Launched secondary emission photon packets: 96.5%
+11/05/2020 06:52:19.717   Launched secondary emission photon packets: 98.0%
+11/05/2020 06:52:25.317   Launched secondary emission photon packets: 98.9%
+11/05/2020 06:52:30.581   Launched secondary emission photon packets: 99.6%
+11/05/2020 06:52:33.694 - Finished secondary emission in 349 s (5m 49s).
+11/05/2020 06:52:33.694 - Finished the run in 5956 s (1h 39m 16s).
+11/05/2020 06:52:33.694   Starting final output...
+11/05/2020 06:52:33.695   SEDInstrument SED wrote SED to /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Accretion/Dusty_SED_sed.dat
+11/05/2020 06:52:33.695 - Finished final output in 0.0 s.
+11/05/2020 06:52:33.695 - Finished simulation Dusty using 4 threads and a single process in 7984 s (2h 13m 4s).
+11/05/2020 06:52:33.695   Available memory: 11.6 GB -- Peak memory usage: 1.62 GB (14.0%)

@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- A SKIRT parameter file © Astronomical Observatory, Ghent University -->
+<skirt-simulation-hierarchy type="MonteCarloSimulation" format="9" producer="SKIRT v9.0 (git 63a5263-dirty built on 02/07/2019 at 17:44:39)" time="2020-05-11T04:39:29.309">
+    <MonteCarloSimulation userLevel="Regular" simulationMode="DustEmissionWithSelfAbsorption" numPackets="1e7">
+        <random type="Random">
+            <Random seed="0"/>
+        </random>
+        <units type="Units">
+            <ExtragalacticUnits fluxOutputStyle="Frequency"/>
+        </units>
+        <sourceSystem type="SourceSystem">
+            <SourceSystem minWavelength="0.09 micron" maxWavelength="100 micron" wavelengths="0.55 micron" sourceBias="0.5">
+                <sources type="Source">
+                    <ParticleSource filename="TNG100-1_star_id278.txt" importVelocity="false" sourceWeight="1" wavelengthBias="0.5">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <sedFamily type="SEDFamily">
+                            <BruzualCharlotSEDFamily imf="Chabrier" resolution="Low"/>
+                        </sedFamily>
+                        <wavelengthBiasDistribution type="WavelengthDistribution">
+                            <LogWavelengthDistribution minWavelength="0.0001 micron" maxWavelength="1e6 micron"/>
+                        </wavelengthBiasDistribution>
+                    </ParticleSource>
+                </sources>
+            </SourceSystem>
+        </sourceSystem>
+        <mediumSystem type="MediumSystem">
+            <MediumSystem numDensitySamples="100">
+                <photonPacketOptions type="PhotonPacketOptions">
+                    <PhotonPacketOptions minWeightReduction="1e4" minScattEvents="0" pathLengthBias="0.5"/>
+                </photonPacketOptions>
+                <dustEmissionOptions type="DustEmissionOptions">
+                    <DustEmissionOptions dustEmissionType="Equilibrium" storeEmissionRadiationField="false" secondaryPacketsMultiplier="1" spatialBias="0.5" wavelengthBias="0.5">
+                        <cellLibrary type="SpatialCellLibrary">
+                            <AllCellsLibrary/>
+                        </cellLibrary>
+                        <radiationFieldWLG type="DisjointWavelengthGrid">
+                            <LogWavelengthGrid minWavelength="0.09 micron" maxWavelength="1e4 micron" numWavelengths="200"/>
+                        </radiationFieldWLG>
+                        <dustEmissionWLG type="DisjointWavelengthGrid">
+                            <LogWavelengthGrid minWavelength="1 micron" maxWavelength="1e4 micron" numWavelengths="200"/>
+                        </dustEmissionWLG>
+                        <wavelengthBiasDistribution type="WavelengthDistribution">
+                            <LogWavelengthDistribution minWavelength="0.0001 micron" maxWavelength="1e6 micron"/>
+                        </wavelengthBiasDistribution>
+                    </DustEmissionOptions>
+                </dustEmissionOptions>
+                <dustSelfAbsorptionOptions type="DustSelfAbsorptionOptions">
+                    <DustSelfAbsorptionOptions minIterations="1" maxIterations="10" maxFractionOfPrimary="0.09" maxFractionOfPrevious="0.03" iterationPacketsMultiplier="1"/>
+                </dustSelfAbsorptionOptions>
+                <media type="Medium">
+                    <ParticleMedium filename="DustSphere_gas_3.552485e-08_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.0003552485 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_4.860947e-08_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.0004860947 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_6.651346e-08_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.0006651346 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_9.101191e-08_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.0009101191 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_1.245337e-07_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.001245337 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_1.704023e-07_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.001704023 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_2.331655e-07_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.002331655 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_3.190457e-07_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.003190457 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_4.365576e-07_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.004365576 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_5.973519e-07_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.005973519 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_8.173704e-07_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.008173704 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_1.118427e-06_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.01118427 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_1.530369e-06_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.01530369 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_2.09404e-06_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.0209404 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_2.865323e-06_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.02865323 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_3.920688e-06_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.03920688 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_5.364768e-06_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.05364768 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_7.340736e-06_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.07340736 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_1.00445e-05_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.100445 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_1.374412e-05_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.1374412 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_1.88064e-05_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.188064 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_2.573323e-05_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.2573323 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_3.521137e-05_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.3521137 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_4.818053e-05_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.4818053 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_6.592654e-05_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.6592654 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_9.020881e-05_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.9020881 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_0.0001234348_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="1.234348 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_0.0001688987_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="1.688987 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_0.000231108_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="2.31108 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_0.0003162304_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="3.162304 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_0.0004327054_S.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineSilicateGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="4.327054 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_3.552485e-08_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.0003552485 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_4.860947e-08_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.0004860947 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_6.651346e-08_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.0006651346 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_9.101191e-08_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.0009101191 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_1.245337e-07_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.001245337 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_1.704023e-07_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.001704023 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_2.331655e-07_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.002331655 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_3.190457e-07_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.003190457 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_4.365576e-07_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.004365576 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_5.973519e-07_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.005973519 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_8.173704e-07_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.008173704 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_1.118427e-06_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.01118427 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_1.530369e-06_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.01530369 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_2.09404e-06_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.0209404 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_2.865323e-06_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.02865323 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_3.920688e-06_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.03920688 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_5.364768e-06_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.05364768 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_7.340736e-06_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.07340736 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_1.00445e-05_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.100445 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_1.374412e-05_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.1374412 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_1.88064e-05_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.188064 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_2.573323e-05_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.2573323 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_3.521137e-05_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.3521137 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_4.818053e-05_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.4818053 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_6.592654e-05_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.6592654 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_9.020881e-05_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="0.9020881 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_0.0001234348_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="1.234348 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_0.0001688987_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="1.688987 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_0.000231108_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="2.31108 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_0.0003162304_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="3.162304 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                    <ParticleMedium filename="DustSphere_gas_0.0004327054_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false">
+                        <smoothingKernel type="SmoothingKernel">
+                            <CubicSplineSmoothingKernel/>
+                        </smoothingKernel>
+                        <materialMix type="MaterialMix">
+                            <ConfigurableDustMix scatteringType="HenyeyGreenstein">
+                                <populations type="GrainPopulation">
+                                    <GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1">
+                                        <composition type="GrainComposition">
+                                            <DraineGraphiteGrainComposition/>
+                                        </composition>
+                                        <sizeDistribution type="GrainSizeDistribution">
+                                            <SingleGrainSizeDistribution size="4.327054 micron"/>
+                                        </sizeDistribution>
+                                    </GrainPopulation>
+                                </populations>
+                            </ConfigurableDustMix>
+                        </materialMix>
+                    </ParticleMedium>
+                </media>
+                <grid type="SpatialGrid">
+                    <PolicyTreeSpatialGrid minX="-1e4 pc" maxX="1e4 pc" minY="-1e4 pc" maxY="1e4 pc" minZ="-1e4 pc" maxZ="1e4 pc" treeType="OctTree">
+                        <policy type="TreePolicy">
+                            <DensityTreePolicy minLevel="3" maxLevel="7" maxDustFraction="1e-6" maxDustOpticalDepth="1" wavelength="0.1 micron" maxDustDensityDispersion="0" maxElectronFraction="1e-6" maxGasFraction="1e-6"/>
+                        </policy>
+                    </PolicyTreeSpatialGrid>
+                </grid>
+            </MediumSystem>
+        </mediumSystem>
+        <instrumentSystem type="InstrumentSystem">
+            <InstrumentSystem>
+                <defaultWavelengthGrid type="WavelengthGrid">
+                    <LogWavelengthGrid minWavelength="0.09 micron" maxWavelength="1e4 micron" numWavelengths="200"/>
+                </defaultWavelengthGrid>
+                <instruments type="Instrument">
+                    <SEDInstrument instrumentName="SED" distance="10 Mpc" inclination="90 deg" azimuth="90 deg" roll="0 deg" recordComponents="true" numScatteringLevels="0" recordPolarization="false" recordStatistics="false"/>
+                </instruments>
+            </InstrumentSystem>
+        </instrumentSystem>
+        <probeSystem type="ProbeSystem">
+            <ProbeSystem>
+                <probes type="Probe">
+                    <DefaultMediaDensityCutsProbe probeName="dns"/>
+                </probes>
+            </ProbeSystem>
+        </probeSystem>
+    </MonteCarloSimulation>
+</skirt-simulation-hierarchy>

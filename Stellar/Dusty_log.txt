@@ -1,0 +1,361 @@
+11/05/2020 14:05:29.420   SKIRT v9.0 (git 63a5263-dirty built on 02/07/2019 at 17:44:39)
+11/05/2020 14:05:29.420   Running on julius52700-Aspire-A515-51G for julius52700
+11/05/2020 14:05:29.420   Starting simulation Dusty using 4 threads and a single process...
+11/05/2020 14:05:29.420   Starting setup...
+11/05/2020 14:05:29.420     Panchromatic wavelength regime
+11/05/2020 14:05:29.420     With transfer medium
+11/05/2020 14:05:29.420     Including dust emission with iterative calculation of dust self-absorption 
+11/05/2020 14:05:29.420     Model and grid symmetry: 3D
+11/05/2020 14:05:29.420   BruzualCharlotSEDFamily opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/SED/BruzualCharlotSEDFamily_Chabrier_lr.stab
+11/05/2020 14:05:29.420   ParticleSource reads smoothed source particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/TNG100-1_star_id278.txt...
+11/05/2020 14:05:29.420     Column 1: position x (kpc)
+11/05/2020 14:05:29.420     Column 2: position y (kpc)
+11/05/2020 14:05:29.420     Column 3: position z (kpc)
+11/05/2020 14:05:29.420     Column 4: size h (kpc)
+11/05/2020 14:05:29.420     Column 5: initial mass (Msun)
+11/05/2020 14:05:29.420     Column 6: metallicity (1)
+11/05/2020 14:05:29.420     Column 7: age (Gyr)
+11/05/2020 14:05:29.450   Done reading
+11/05/2020 14:05:29.450     Number of particles: 9407
+11/05/2020 14:05:29.450   Calculating luminosities from imported properties
+11/05/2020 14:05:31.339   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:31.693   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:31.693   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_3.552485e-08_S.txt...
+11/05/2020 14:05:31.693     Column 1: position x (pc)
+11/05/2020 14:05:31.693     Column 2: position y (pc)
+11/05/2020 14:05:31.693     Column 3: position z (pc)
+11/05/2020 14:05:31.693     Column 4: size h (pc)
+11/05/2020 14:05:31.693     Column 5: mass (Msun)
+11/05/2020 14:05:31.801   Done reading
+11/05/2020 14:05:31.801     Number of particles: 28612
+11/05/2020 14:05:31.802     Total original mass : 2.4879e-06 Msun
+11/05/2020 14:05:31.802     Total metallic mass : 2.4879e-06 Msun
+11/05/2020 14:05:31.802     Total effective mass: 2.4879e-06 Msun
+11/05/2020 14:05:31.802   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:31.843     Smallest number of particles per cell: 0
+11/05/2020 14:05:31.843     Largest  number of particles per cell: 1443
+11/05/2020 14:05:31.843     Average  number of particles per cell: 144.4
+11/05/2020 14:05:31.844   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:32.204   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:32.204   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_4.860947e-08_S.txt...
+11/05/2020 14:05:32.204     Column 1: position x (pc)
+11/05/2020 14:05:32.204     Column 2: position y (pc)
+11/05/2020 14:05:32.204     Column 3: position z (pc)
+11/05/2020 14:05:32.204     Column 4: size h (pc)
+11/05/2020 14:05:32.204     Column 5: mass (Msun)
+11/05/2020 14:05:32.306   Done reading
+11/05/2020 14:05:32.306     Number of particles: 28612
+11/05/2020 14:05:32.307     Total original mass : 2.0022e+04 Msun
+11/05/2020 14:05:32.307     Total metallic mass : 2.0022e+04 Msun
+11/05/2020 14:05:32.307     Total effective mass: 2.0022e+04 Msun
+11/05/2020 14:05:32.307   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:32.347     Smallest number of particles per cell: 0
+11/05/2020 14:05:32.347     Largest  number of particles per cell: 1443
+11/05/2020 14:05:32.347     Average  number of particles per cell: 144.4
+11/05/2020 14:05:32.348   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:32.708   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:32.708   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_6.651346e-08_S.txt...
+11/05/2020 14:05:32.708     Column 1: position x (pc)
+11/05/2020 14:05:32.708     Column 2: position y (pc)
+11/05/2020 14:05:32.708     Column 3: position z (pc)
+11/05/2020 14:05:32.708     Column 4: size h (pc)
+11/05/2020 14:05:32.708     Column 5: mass (Msun)
+11/05/2020 14:05:32.814   Done reading
+11/05/2020 14:05:32.814     Number of particles: 28612
+11/05/2020 14:05:32.815     Total original mass : 8.7852e+04 Msun
+11/05/2020 14:05:32.815     Total metallic mass : 8.7852e+04 Msun
+11/05/2020 14:05:32.815     Total effective mass: 8.7852e+04 Msun
+11/05/2020 14:05:32.815   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:32.853     Smallest number of particles per cell: 0
+11/05/2020 14:05:32.853     Largest  number of particles per cell: 1443
+11/05/2020 14:05:32.853     Average  number of particles per cell: 144.4
+11/05/2020 14:05:32.854   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:33.210   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:33.210   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_9.101191e-08_S.txt...
+11/05/2020 14:05:33.210     Column 1: position x (pc)
+11/05/2020 14:05:33.210     Column 2: position y (pc)
+11/05/2020 14:05:33.210     Column 3: position z (pc)
+11/05/2020 14:05:33.210     Column 4: size h (pc)
+11/05/2020 14:05:33.210     Column 5: mass (Msun)
+11/05/2020 14:05:33.311   Done reading
+11/05/2020 14:05:33.311     Number of particles: 28612
+11/05/2020 14:05:33.312     Total original mass : 2.9667e+05 Msun
+11/05/2020 14:05:33.312     Total metallic mass : 2.9667e+05 Msun
+11/05/2020 14:05:33.312     Total effective mass: 2.9667e+05 Msun
+11/05/2020 14:05:33.312   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:33.348     Smallest number of particles per cell: 0
+11/05/2020 14:05:33.348     Largest  number of particles per cell: 1443
+11/05/2020 14:05:33.348     Average  number of particles per cell: 144.4
+11/05/2020 14:05:33.349   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:33.702   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:33.702   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_1.245337e-07_S.txt...
+11/05/2020 14:05:33.702     Column 1: position x (pc)
+11/05/2020 14:05:33.702     Column 2: position y (pc)
+11/05/2020 14:05:33.702     Column 3: position z (pc)
+11/05/2020 14:05:33.702     Column 4: size h (pc)
+11/05/2020 14:05:33.702     Column 5: mass (Msun)
+11/05/2020 14:05:33.802   Done reading
+11/05/2020 14:05:33.802     Number of particles: 28612
+11/05/2020 14:05:33.803     Total original mass : 7.7097e+05 Msun
+11/05/2020 14:05:33.803     Total metallic mass : 7.7097e+05 Msun
+11/05/2020 14:05:33.803     Total effective mass: 7.7097e+05 Msun
+11/05/2020 14:05:33.803   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:33.841     Smallest number of particles per cell: 0
+11/05/2020 14:05:33.842     Largest  number of particles per cell: 1443
+11/05/2020 14:05:33.842     Average  number of particles per cell: 144.4
+11/05/2020 14:05:33.843   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:34.188   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:34.188   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_1.704023e-07_S.txt...
+11/05/2020 14:05:34.188     Column 1: position x (pc)
+11/05/2020 14:05:34.188     Column 2: position y (pc)
+11/05/2020 14:05:34.188     Column 3: position z (pc)
+11/05/2020 14:05:34.188     Column 4: size h (pc)
+11/05/2020 14:05:34.188     Column 5: mass (Msun)
+11/05/2020 14:05:34.284   Done reading
+11/05/2020 14:05:34.284     Number of particles: 28612
+11/05/2020 14:05:34.285     Total original mass : 1.5264e+06 Msun
+11/05/2020 14:05:34.285     Total metallic mass : 1.5264e+06 Msun
+11/05/2020 14:05:34.285     Total effective mass: 1.5264e+06 Msun
+11/05/2020 14:05:34.285   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:34.322     Smallest number of particles per cell: 0
+11/05/2020 14:05:34.323     Largest  number of particles per cell: 1443
+11/05/2020 14:05:34.323     Average  number of particles per cell: 144.4
+11/05/2020 14:05:34.324   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:34.668   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:34.668   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_2.331655e-07_S.txt...
+11/05/2020 14:05:34.668     Column 1: position x (pc)
+11/05/2020 14:05:34.668     Column 2: position y (pc)
+11/05/2020 14:05:34.668     Column 3: position z (pc)
+11/05/2020 14:05:34.668     Column 4: size h (pc)
+11/05/2020 14:05:34.668     Column 5: mass (Msun)
+11/05/2020 14:05:34.764   Done reading
+11/05/2020 14:05:34.764     Number of particles: 28612
+11/05/2020 14:05:34.765     Total original mass : 2.3042e+06 Msun
+11/05/2020 14:05:34.765     Total metallic mass : 2.3042e+06 Msun
+11/05/2020 14:05:34.765     Total effective mass: 2.3042e+06 Msun
+11/05/2020 14:05:34.765   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:34.810     Smallest number of particles per cell: 0
+11/05/2020 14:05:34.810     Largest  number of particles per cell: 1443
+11/05/2020 14:05:34.811     Average  number of particles per cell: 144.4
+11/05/2020 14:05:34.812   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:35.166   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:35.166   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_3.190457e-07_S.txt...
+11/05/2020 14:05:35.166     Column 1: position x (pc)
+11/05/2020 14:05:35.166     Column 2: position y (pc)
+11/05/2020 14:05:35.166     Column 3: position z (pc)
+11/05/2020 14:05:35.166     Column 4: size h (pc)
+11/05/2020 14:05:35.166     Column 5: mass (Msun)
+11/05/2020 14:05:35.263   Done reading
+11/05/2020 14:05:35.263     Number of particles: 28612
+11/05/2020 14:05:35.264     Total original mass : 2.7092e+06 Msun
+11/05/2020 14:05:35.264     Total metallic mass : 2.7092e+06 Msun
+11/05/2020 14:05:35.264     Total effective mass: 2.7092e+06 Msun
+11/05/2020 14:05:35.264   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:35.301     Smallest number of particles per cell: 0
+11/05/2020 14:05:35.301     Largest  number of particles per cell: 1443
+11/05/2020 14:05:35.301     Average  number of particles per cell: 144.4
+11/05/2020 14:05:35.302   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:35.652   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:35.652   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_4.365576e-07_S.txt...
+11/05/2020 14:05:35.652     Column 1: position x (pc)
+11/05/2020 14:05:35.652     Column 2: position y (pc)
+11/05/2020 14:05:35.652     Column 3: position z (pc)
+11/05/2020 14:05:35.652     Column 4: size h (pc)
+11/05/2020 14:05:35.652     Column 5: mass (Msun)
+11/05/2020 14:05:35.748   Done reading
+11/05/2020 14:05:35.748     Number of particles: 28612
+11/05/2020 14:05:35.748     Total original mass : 2.5409e+06 Msun
+11/05/2020 14:05:35.748     Total metallic mass : 2.5409e+06 Msun
+11/05/2020 14:05:35.748     Total effective mass: 2.5409e+06 Msun
+11/05/2020 14:05:35.748   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:35.787     Smallest number of particles per cell: 0
+11/05/2020 14:05:35.787     Largest  number of particles per cell: 1443
+11/05/2020 14:05:35.787     Average  number of particles per cell: 144.4
+11/05/2020 14:05:35.788   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:36.142   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:36.142   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_5.973519e-07_S.txt...
+11/05/2020 14:05:36.142     Column 1: position x (pc)
+11/05/2020 14:05:36.142     Column 2: position y (pc)
+11/05/2020 14:05:36.143     Column 3: position z (pc)
+11/05/2020 14:05:36.143     Column 4: size h (pc)
+11/05/2020 14:05:36.143     Column 5: mass (Msun)
+11/05/2020 14:05:36.244   Done reading
+11/05/2020 14:05:36.244     Number of particles: 28612
+11/05/2020 14:05:36.245     Total original mass : 1.9456e+06 Msun
+11/05/2020 14:05:36.245     Total metallic mass : 1.9456e+06 Msun
+11/05/2020 14:05:36.245     Total effective mass: 1.9456e+06 Msun
+11/05/2020 14:05:36.245   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:36.282     Smallest number of particles per cell: 0
+11/05/2020 14:05:36.282     Largest  number of particles per cell: 1443
+11/05/2020 14:05:36.282     Average  number of particles per cell: 144.4
+11/05/2020 14:05:36.283   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:36.654   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:36.654   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_8.173704e-07_S.txt...
+11/05/2020 14:05:36.654     Column 1: position x (pc)
+11/05/2020 14:05:36.654     Column 2: position y (pc)
+11/05/2020 14:05:36.654     Column 3: position z (pc)
+11/05/2020 14:05:36.654     Column 4: size h (pc)
+11/05/2020 14:05:36.654     Column 5: mass (Msun)
+11/05/2020 14:05:36.756   Done reading
+11/05/2020 14:05:36.756     Number of particles: 28612
+11/05/2020 14:05:36.756     Total original mass : 1.2617e+06 Msun
+11/05/2020 14:05:36.756     Total metallic mass : 1.2617e+06 Msun
+11/05/2020 14:05:36.756     Total effective mass: 1.2617e+06 Msun
+11/05/2020 14:05:36.756   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:36.801     Smallest number of particles per cell: 0
+11/05/2020 14:05:36.801     Largest  number of particles per cell: 1443
+11/05/2020 14:05:36.801     Average  number of particles per cell: 144.4
+11/05/2020 14:05:36.804   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:37.169   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:37.169   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_1.118427e-06_S.txt...
+11/05/2020 14:05:37.169     Column 1: position x (pc)
+11/05/2020 14:05:37.169     Column 2: position y (pc)
+11/05/2020 14:05:37.169     Column 3: position z (pc)
+11/05/2020 14:05:37.169     Column 4: size h (pc)
+11/05/2020 14:05:37.169     Column 5: mass (Msun)
+11/05/2020 14:05:37.265   Done reading
+11/05/2020 14:05:37.265     Number of particles: 28612
+11/05/2020 14:05:37.266     Total original mass : 7.4856e+05 Msun
+11/05/2020 14:05:37.266     Total metallic mass : 7.4856e+05 Msun
+11/05/2020 14:05:37.266     Total effective mass: 7.4856e+05 Msun
+11/05/2020 14:05:37.266   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:37.304     Smallest number of particles per cell: 0
+11/05/2020 14:05:37.304     Largest  number of particles per cell: 1443
+11/05/2020 14:05:37.304     Average  number of particles per cell: 144.4
+11/05/2020 14:05:37.305   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:37.653   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:37.653   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_1.530369e-06_S.txt...
+11/05/2020 14:05:37.653     Column 1: position x (pc)
+11/05/2020 14:05:37.653     Column 2: position y (pc)
+11/05/2020 14:05:37.653     Column 3: position z (pc)
+11/05/2020 14:05:37.653     Column 4: size h (pc)
+11/05/2020 14:05:37.653     Column 5: mass (Msun)
+11/05/2020 14:05:37.748   Done reading
+11/05/2020 14:05:37.749     Number of particles: 28612
+11/05/2020 14:05:37.749     Total original mass : 4.6818e+05 Msun
+11/05/2020 14:05:37.749     Total metallic mass : 4.6818e+05 Msun
+11/05/2020 14:05:37.749     Total effective mass: 4.6818e+05 Msun
+11/05/2020 14:05:37.749   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:37.788     Smallest number of particles per cell: 0
+11/05/2020 14:05:37.789     Largest  number of particles per cell: 1443
+11/05/2020 14:05:37.789     Average  number of particles per cell: 144.4
+11/05/2020 14:05:37.790   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:38.140   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:38.141   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_2.09404e-06_S.txt...
+11/05/2020 14:05:38.141     Column 1: position x (pc)
+11/05/2020 14:05:38.141     Column 2: position y (pc)
+11/05/2020 14:05:38.141     Column 3: position z (pc)
+11/05/2020 14:05:38.141     Column 4: size h (pc)
+11/05/2020 14:05:38.141     Column 5: mass (Msun)
+11/05/2020 14:05:38.238   Done reading
+11/05/2020 14:05:38.238     Number of particles: 28612
+11/05/2020 14:05:38.239     Total original mass : 3.8635e+05 Msun
+11/05/2020 14:05:38.239     Total metallic mass : 3.8635e+05 Msun
+11/05/2020 14:05:38.239     Total effective mass: 3.8635e+05 Msun
+11/05/2020 14:05:38.239   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:38.275     Smallest number of particles per cell: 0
+11/05/2020 14:05:38.275     Largest  number of particles per cell: 1443
+11/05/2020 14:05:38.275     Average  number of particles per cell: 144.4
+11/05/2020 14:05:38.277   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:38.620   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:38.620   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_2.865323e-06_S.txt...
+11/05/2020 14:05:38.620     Column 1: position x (pc)
+11/05/2020 14:05:38.620     Column 2: position y (pc)
+11/05/2020 14:05:38.620     Column 3: position z (pc)
+11/05/2020 14:05:38.620     Column 4: size h (pc)
+11/05/2020 14:05:38.620     Column 5: mass (Msun)
+11/05/2020 14:05:38.716   Done reading
+11/05/2020 14:05:38.716     Number of particles: 28612
+11/05/2020 14:05:38.716     Total original mass : 4.3652e+05 Msun
+11/05/2020 14:05:38.717     Total metallic mass : 4.3652e+05 Msun
+11/05/2020 14:05:38.717     Total effective mass: 4.3652e+05 Msun
+11/05/2020 14:05:38.717   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:38.754     Smallest number of particles per cell: 0
+11/05/2020 14:05:38.754     Largest  number of particles per cell: 1443
+11/05/2020 14:05:38.754     Average  number of particles per cell: 144.4
+11/05/2020 14:05:38.755   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:39.103   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:39.103   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_3.920688e-06_S.txt...
+11/05/2020 14:05:39.103     Column 1: position x (pc)
+11/05/2020 14:05:39.103     Column 2: position y (pc)
+11/05/2020 14:05:39.103     Column 3: position z (pc)
+11/05/2020 14:05:39.103     Column 4: size h (pc)
+11/05/2020 14:05:39.103     Column 5: mass (Msun)
+11/05/2020 14:05:39.199   Done reading
+11/05/2020 14:05:39.199     Number of particles: 28612
+11/05/2020 14:05:39.199     Total original mass : 5.9970e+05 Msun
+11/05/2020 14:05:39.199     Total metallic mass : 5.9970e+05 Msun
+11/05/2020 14:05:39.199     Total effective mass: 5.9970e+05 Msun
+11/05/2020 14:05:39.199   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:39.237     Smallest number of particles per cell: 0
+11/05/2020 14:05:39.237     Largest  number of particles per cell: 1443
+11/05/2020 14:05:39.237     Average  number of particles per cell: 144.4
+11/05/2020 14:05:39.238   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:39.589   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:39.589   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_5.364768e-06_S.txt...
+11/05/2020 14:05:39.590     Column 1: position x (pc)
+11/05/2020 14:05:39.590     Column 2: position y (pc)
+11/05/2020 14:05:39.590     Column 3: position z (pc)
+11/05/2020 14:05:39.590     Column 4: size h (pc)
+11/05/2020 14:05:39.590     Column 5: mass (Msun)
+11/05/2020 14:05:39.685   Done reading
+11/05/2020 14:05:39.685     Number of particles: 28612
+11/05/2020 14:05:39.686     Total original mass : 1.0070e+06 Msun
+11/05/2020 14:05:39.686     Total metallic mass : 1.0070e+06 Msun
+11/05/2020 14:05:39.686     Total effective mass: 1.0070e+06 Msun
+11/05/2020 14:05:39.686   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:39.723     Smallest number of particles per cell: 0
+11/05/2020 14:05:39.723     Largest  number of particles per cell: 1443
+11/05/2020 14:05:39.723     Average  number of particles per cell: 144.4
+11/05/2020 14:05:39.724   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:40.074   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:40.074   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_7.340736e-06_S.txt...
+11/05/2020 14:05:40.074     Column 1: position x (pc)
+11/05/2020 14:05:40.074     Column 2: position y (pc)
+11/05/2020 14:05:40.074     Column 3: position z (pc)
+11/05/2020 14:05:40.074     Column 4: size h (pc)
+11/05/2020 14:05:40.074     Column 5: mass (Msun)
+11/05/2020 14:05:40.171   Done reading
+11/05/2020 14:05:40.171     Number of particles: 28612
+11/05/2020 14:05:40.171     Total original mass : 2.1934e+06 Msun
+11/05/2020 14:05:40.171     Total metallic mass : 2.1934e+06 Msun
+11/05/2020 14:05:40.171     Total effective mass: 2.1934e+06 Msun
+11/05/2020 14:05:40.171   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:40.209     Smallest number of particles per cell: 0
+11/05/2020 14:05:40.209     Largest  number of particles per cell: 1443
+11/05/2020 14:05:40.209     Average  number of particles per cell: 144.4
+11/05/2020 14:05:40.210   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:40.555   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:40.555   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_1.00445e-05_S.txt...
+11/05/2020 14:05:40.555     Column 1: position x (pc)
+11/05/2020 14:05:40.555     Column 2: position y (pc)
+11/05/2020 14:05:40.555     Column 3: position z (pc)
+11/05/2020 14:05:40.555     Column 4: size h (pc)
+11/05/2020 14:05:40.555     Column 5: mass (Msun)
+11/05/2020 14:05:40.650   Done reading
+11/05/2020 14:05:40.651     Number of particles: 28612
+11/05/2020 14:05:40.651     Total original mass : 5.2549e+06 Msun
+11/05/2020 14:05:40.651     Total metallic mass : 5.2549e+06 Msun
+11/05/2020 14:05:40.651     Total effective mass: 5.2549e+06 Msun
+11/05/2020 14:05:40.651   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:40.688     Smallest number of particles per cell: 0
+11/05/2020 14:05:40.688     Largest  number of particles per cell: 1443
+11/05/2020 14:05:40.688     Average  number of particles per cell: 144.4
+11/05/2020 14:05:40.690   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
+11/05/2020 14:05:41.047   ConfigurableDustMix allocated 261 KB of memory
+11/05/2020 14:05:41.047   ParticleMedium reads smoothed particles from text file /home/julius52700/Desktop/SKIRT/TNG_Tests/CA/Stellar/DustSphere_gas_1.374412e-05_S.txt...
+11/05/2020 14:05:41.047     Column 1: position x (pc)
+11/05/2020 14:05:41.047     Column 2: position y (pc)
+11/05/2020 14:05:41.047     Column 3: position z (pc)
+11/05/2020 14:05:41.047     Column 4: size h (pc)
+11/05/2020 14:05:41.047     Column 5: mass (Msun)
+11/05/2020 14:05:41.143   Done reading
+11/05/2020 14:05:41.143     Number of particles: 28612
+11/05/2020 14:05:41.143     Total original mass : 1.0504e+07 Msun
+11/05/2020 14:05:41.143     Total metallic mass : 1.0504e+07 Msun
+11/05/2020 14:05:41.143     Total effective mass: 1.0504e+07 Msun
+11/05/2020 14:05:41.143   Constructing intermediate 20x20x20 grid for particles...
+11/05/2020 14:05:41.183     Smallest number of particles per cell: 0
+11/05/2020 14:05:41.183     Largest  number of particles per cell: 1443
+11/05/2020 14:05:41.183     Average  number of particles per cell: 144.4
+11/05/2020 14:05:41.184   ConfigurableDustMix opened stored table /home/julius52700/SKIRT/resources/SKIRT9_Resources_Core/OpticalProps/DraineSilicateOpticalProps.stab
