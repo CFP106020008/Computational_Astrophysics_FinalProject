@@ -128,7 +128,8 @@
                     <LogWavelengthGrid minWavelength="0.09 micron" maxWavelength="1e4 micron" numWavelengths="200"/>
                 </defaultWavelengthGrid>
                 <instruments type="Instrument">
-                    <FullInstrument instrumentName="inst" distance="10 Mpc" inclination="90 deg" azimuth="90 deg" roll="0 deg" recordComponents="true" numScatteringLevels="0" recordPolarization="false" recordStatistics="false"/>
+                    <FullInstrument instrumentName="xy" distance="10 Mpc" inclination="0 deg" azimuth="0 deg" roll="0 deg" fieldOfViewX="2e4 pc" numPixelsX="1024" centerX="0 pc" fieldOfViewY="2e4 pc" numPixelsY="1024" centerY="0 pc" recordComponents="true" numScatteringLevels="0" recordPolarization="false" recordStatistics="false"/>
+                    <FullInstrument instrumentName="xz" distance="10 Mpc" inclination="90 deg" azimuth="90 deg" roll="0 deg" fieldOfViewX="2e4 pc" numPixelsX="1024" centerX="0 pc" fieldOfViewY="2e4 pc" numPixelsY="1024" centerY="0 pc" recordComponents="true" numScatteringLevels="0" recordPolarization="false" recordStatistics="false"/>
                 </instruments>
             </InstrumentSystem>
         </instrumentSystem>
