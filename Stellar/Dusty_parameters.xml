@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- A SKIRT parameter file © Astronomical Observatory, Ghent University -->
-<skirt-simulation-hierarchy type="MonteCarloSimulation" format="9" producer="SKIRT v9.0 (git 63a5263-dirty built on 02/07/2019 at 17:44:39)" time="2020-05-11T14:05:29.368">
+<skirt-simulation-hierarchy type="MonteCarloSimulation" format="9" producer="SKIRT v9.0 (git 63a5263-dirty built on 02/07/2019 at 17:44:39)" time="2020-06-08T00:52:49.810">
     <MonteCarloSimulation userLevel="Regular" simulationMode="DustEmissionWithSelfAbsorption" numPackets="1e7">
         <random type="Random">
             <Random seed="0"/>
@@ -11,7 +11,7 @@
         <sourceSystem type="SourceSystem">
             <SourceSystem minWavelength="0.09 micron" maxWavelength="100 micron" wavelengths="0.55 micron" sourceBias="0.5">
                 <sources type="Source">
-                    <ParticleSource filename="TNG100-1_star_id278.txt" importVelocity="false" sourceWeight="1" wavelengthBias="0.5">
+                    <ParticleSource filename="star.txt" importVelocity="false" sourceWeight="1" wavelengthBias="0.5">
                         <smoothingKernel type="SmoothingKernel">
                             <CubicSplineSmoothingKernel/>
                         </smoothingKernel>
@@ -1244,7 +1244,8 @@
                     <LogWavelengthGrid minWavelength="0.09 micron" maxWavelength="1e4 micron" numWavelengths="200"/>
                 </defaultWavelengthGrid>
                 <instruments type="Instrument">
-                    <SEDInstrument instrumentName="SED" distance="10 Mpc" inclination="90 deg" azimuth="90 deg" roll="0 deg" recordComponents="true" numScatteringLevels="0" recordPolarization="false" recordStatistics="false"/>
+                    <FullInstrument instrumentName="xy" distance="10 Mpc" inclination="0 deg" azimuth="0 deg" roll="0 deg" fieldOfViewX="2e4 pc" numPixelsX="1024" centerX="0 pc" fieldOfViewY="2e4 pc" numPixelsY="1024" centerY="0 pc" recordComponents="true" numScatteringLevels="0" recordPolarization="false" recordStatistics="false"/>
+                    <FullInstrument instrumentName="xz" distance="10 Mpc" inclination="90 deg" azimuth="90 deg" roll="0 deg" fieldOfViewX="2e4 pc" numPixelsX="1024" centerX="0 pc" fieldOfViewY="2e4 pc" numPixelsY="1024" centerY="0 pc" recordComponents="true" numScatteringLevels="0" recordPolarization="false" recordStatistics="false"/>
                 </instruments>
             </InstrumentSystem>
         </instrumentSystem>

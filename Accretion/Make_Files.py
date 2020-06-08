@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 Dust = np.loadtxt("DustDistribution.dat")
-Star = np.loadtxt("TNG100-1_star_id278.txt")
-Gas = np.loadtxt("TNG100-1_gas_id278.txt")
+Star = np.loadtxt("star.txt")
+Gas = np.loadtxt("dust.txt")
 
 mu = 1.4 #Mean molecular mass
 m_p = 1.673e-24 #g
