@@ -114,7 +114,7 @@
 <ParticleMedium filename="DustSphere_gas_0.0004327054_C.txt" massFraction="1" importMetallicity="false" importTemperature="false" maxTemperature="0 K" importVelocity="false" importVariableMixParams="false"><smoothingKernel type="SmoothingKernel"><CubicSplineSmoothingKernel/></smoothingKernel><materialMix type="MaterialMix"><ConfigurableDustMix scatteringType="HenyeyGreenstein"><populations type="GrainPopulation"><GrainPopulation numSizes="1" normalizationType="DustMassPerHydrogenMass" dustMassPerHydrogenAtom="0 Msun" dustMassPerHydrogenMass="0.01" factorOnSizeDistribution="1"><composition type="GrainComposition"><DraineGraphiteGrainComposition/></composition><sizeDistribution type="GrainSizeDistribution"><SingleGrainSizeDistribution size="0.0004327054 cm"/></sizeDistribution></GrainPopulation></populations></ConfigurableDustMix></materialMix></ParticleMedium>
                 </media>
                 <grid type="SpatialGrid">
-                    <PolicyTreeSpatialGrid minX="-7378.262120979845 pc" maxX="7378.262120979845 pc" minY="-7378.262120979845 pc" maxY="7378.262120979845 pc" minZ="-7378.262120979845 pc" maxZ="7378.262120979845 pc" treeType="OctTree">
+                    <PolicyTreeSpatialGrid minX="-5000 pc" maxX="5000 pc" minY="-5000 pc" maxY="5000 pc" minZ="-5000 pc" maxZ="5000 pc" treeType="OctTree">
                         <policy type="TreePolicy">
                             <DensityTreePolicy minLevel="3" maxLevel="7" maxDustFraction="1e-6" maxDustOpticalDepth="1" wavelength="0.1 micron" maxDustDensityDispersion="0" maxElectronFraction="1e-6" maxGasFraction="1e-6"/>
                         </policy>
@@ -128,8 +128,7 @@
                     <LogWavelengthGrid minWavelength="0.09 micron" maxWavelength="1e4 micron" numWavelengths="200"/>
                 </defaultWavelengthGrid>
                 <instruments type="Instrument">
-                    <FullInstrument instrumentName="xy" distance="10 Mpc" inclination="0 deg" azimuth="0 deg" roll="0 deg" fieldOfViewX="2e4 pc" numPixelsX="512" centerX="0 pc" fieldOfViewY="2e4 pc" numPixelsY="512" centerY="0 pc" recordComponents="true" numScatteringLevels="0" recordPolarization="false" recordStatistics="false"/>
-                    <FullInstrument instrumentName="xz" distance="10 Mpc" inclination="90 deg" azimuth="90 deg" roll="0 deg" fieldOfViewX="2e4 pc" numPixelsX="512" centerX="0 pc" fieldOfViewY="2e4 pc" numPixelsY="512" centerY="0 pc" recordComponents="true" numScatteringLevels="0" recordPolarization="false" recordStatistics="false"/>
+                    <SEDInstrument instrumentName="SED" distance="10 Mpc" inclination="0 deg" azimuth="0 deg" roll="0 deg" recordComponents="true" numScatteringLevels="0" recordPolarization="false" recordStatistics="false"/>
                 </instruments>
             </InstrumentSystem>
         </instrumentSystem>
